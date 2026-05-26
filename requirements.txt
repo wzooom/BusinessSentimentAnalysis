@@ -1,0 +1,8 @@
+praw
+gensim
+transformers
+onnxruntime
+matplotlib
+reportlab
+google-generativeai
+pytest
