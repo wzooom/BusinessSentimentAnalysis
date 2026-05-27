@@ -1,0 +1,131 @@
+source,subreddit_or_ticker,post_id,created_utc,created_datetime,title,text,score_or_likes,num_comments,url,permalink
+reddit,stocks,1top6jw,1779841003.0,2026-05-27T00:16:43+00:00,SpaceX-Tesla merger chatter reignites as Musk pushes rocket company towards Nasdaq,"As Elon Musk prepares to lead a second trillion-dollar company into the public market, a move that will likely put him in charge of two of the 10 most valuable U.S. enterprises, chatter is building that Musk’s ultimate goal is to combine the entities into one. 
+
+SpaceX is expected to start trading on the Nasdaq in just over two weeks after obtaining a private market valuation of $1.25 trillion earlier this year, when it merged with xAI, Musk’s artificial intelligence company. Tesla’s market cap currently sits at around $1.6 trillion. 
+
+The two companies already have a laundry list of shared resources, and Musk has discussed with colleagues the possibility of folding the companies together, according to people familiar with the talks who asked not to be named due to the sensitivity of the topic.
+
+Tesla and SpaceX have spent years pooling resources and even sharing personnel. 
+
+Musk sits on both boards, as does venture capitalist Ira Ehrenpreis, founder of DBL Partners. Musk’s brother Kimbal is currently on Tesla’s board and used to be a SpaceX director. SpaceX board members Antonio Gracias and Steve Jurvetson previously served on Tesla’s board. And Charles Kuehmann is vice president of materials engineering for Tesla and SpaceX, joining from Apple
+
+ a decade ago, and is known for playing a key role in troubleshooting key design issues.  
+In January, Tesla revealed it had invested $2 billion in xAI. Those shares became holdings in SpaceX following that company’s merger with xAI the following month.
+
+Source: https://www.cnbc.com/2026/05/26/spacex-tesla-merger-chatter-reignites-as-musk-rocket-company-nears-ipo.html",75,26,https://www.reddit.com/r/stocks/comments/1top6jw/spacextesla_merger_chatter_reignites_as_musk/,https://www.reddit.com/r/stocks/comments/1top6jw/spacextesla_merger_chatter_reignites_as_musk/
+reddit,stocks,1tp6rzc,1779891117.0,2026-05-27T14:11:57+00:00,Contrarian allocation: highest-P/E US large caps as a basket,"Ok so I've been chewing on this for a few weeks and I can't find a good reason not to do it, which usually means I'm missing something obvious.
+
+Idea: take the 20 US large caps with the highest trailing P/E. Equal weight, approx $500 each ($10k total). Automatically rebalance every quarter so names that mean-revert drop out and names that keep compounding stay.
+
+The reasoning, such as it is:
+
+\- A stock trades at a 400+ P/E because the market has decided it's worth pricing in years of future growth right now. Sometimes the market is wrong and it's a bubble. But sometimes it's not and sometimes it's the market spotting a compounder early and refusing to let it get cheap. I don't know which is which on any individual name. But across 20 of them, equal-weighted, I figure the winners drag the basket up more than the bubbles drag it down.
+
+Also: every ""P/E factor"" study I can find tests low P/E vs high P/E and concludes value wins long-term which is fine. But none of them seem to test ""literally just the top 20 most expensive names, rebalanced"". The Russell 1000 Growth isn't this and NASDAQ isn't this. There's no ETF for it that I can find.
+
+So either:
+
+1. Someone has tested it and it's a known disaster, in which case please link me
+2. It works fine but is too weird/embarrassing to package as a product
+3. I'm misunderstanding why no one does this
+
+Current list attached. Heavy on tech and semis (AMD, Palantir, Datadog, Microchip), Tesla obviously, a few REITs that surprised me, CoStar, Live Nation.
+
+| Ticker | Name | Sector | P/E Ratio (TTM) |
+| --- | --- | --- | --- |
+| DDOG | Datadog Inc | Technology | 582.35 |
+| CSGP | CoStar Group Inc | Real Estate | 530.86 |
+| LYV | Live Nation Entertainment Inc | Communication Services | 462.55 |
+| TSLA | Tesla Inc | Consumer Cyclical | 390.62 |
+| CIEN | Ciena Corp | Technology | 372.60 |
+| TWLO | Twilio Inc. | Communication Services | 278.07 |
+| MCHP | Microchip Technology Inc | Technology | 262.58 |
+| OMC | Omnicom Group Inc | Communication Services | 242.01 |
+| GPC | Genuine Parts Co | Consumer Cyclical | 222.28 |
+| DKNG | DraftKings Inc. | Consumer Cyclical | 197.82 |
+| AMD | Advanced Micro Devices Inc | Technology | 164.07 |
+| VTR | Ventas Inc | Real Estate | 161.58 |
+| AXON | Axon Enterprise Inc. | Industrials | 149.73 |
+| LITE | Lumentum Holdings Inc | Technology | 148.04 |
+| PLTR | Palantir Technologies Inc. | Technology | 143.33 |
+| IRM | Iron Mountain Incorporated | Real Estate | 139.97 |
+| PANW | Palo Alto Networks Inc | Technology | 139.20 |
+| FANG | Diamondback Energy Inc | Energy | 136.93 |
+| COHR | Coherent Inc | Technology | 126.43 |
+| NRG | NRG Energy Inc. | Utilities | 121.63 |
+
+(i extracted this list using Obside, but I double checked with Yahoo Finance and all good)
+
+What am I missing?",5,9,https://www.reddit.com/r/stocks/comments/1tp6rzc/contrarian_allocation_highestpe_us_large_caps_as/,https://www.reddit.com/r/stocks/comments/1tp6rzc/contrarian_allocation_highestpe_us_large_caps_as/
+reddit,stocks,1tob8md,1779811139.0,2026-05-26T15:58:59+00:00,Reddit ETF progress from Jan 2021 to Jan 2026,"This [Reddit ETF post](https://www.reddit.com/r/stocks/comments/ku6skz/reddit_etf/) was made at the beginning of 2021, near the period of peak euphoria.  Anyone who was around at the time can testify that this really did represent consensus opinions in this sub at that time, which you can see in the comments of that post.  Note that the game store madness did not really begin until a couple weeks later, which is why it did not appear there.
+
+I felt like it was going to play out poorly so I bookmarked it, and now have been doing yearly updates.  After all, for something like this, you really need to give it a multiple year timeline at least.
+
+We have now passed year 5, which I think is a pretty good benchmark.  For years this did laughably bad, and I have sarcastically remarked about how the sharp, financial geniuses of the time performed against SPY and VTI.  Last year was a bit of a surprise though, and closed the gap quite a lot due almost entirely to NVDA and PLTR.  Let's see how 2025-now stacked up
+
+*I used a $100,000 initial investment and just rounded all the prices to the dollar for visual simplicity (all entries use the real, full prices, I have just rounded them for this table).  I used the prices at close last Friday.  This also backtracks prices from stock splits.*
+
+|**TICKER**|**Jan8, 2021**|May 22, 2026|**% change**|**Initial $**|**Final $**|
+|:-|:-|:-|:-|:-|:-|
+|TSLA|293|426|\+45%|5000|7,270|
+|AMD|95|468|\+392%|5000|24,606|
+|PLTR|25|137|\+448%|5000|27,376|
+|ICLN|33|22|\-32%|5000|3,395|
+|NIO|59|5|\-91%|5000|441|
+|SQ|241|68|\-72%|5000|1,412|
+|NET|79|216|\+174%|5000|13,682|
+|DKNG|52|25|\-52%|5000|2,415|
+|NVDA|13|215|\+1,521%|5000|81,073|
+|AAPL|132|309|\+134%|5000|11,698|
+|ENPH|207|64|\-69%|5000|1,547|
+|PLUG|67|4|\-94%|5000|282|
+|SE|210|87|\-58%|4000|1,662|
+|BABA|263|130|\-51%|4000|1,977|
+|CRSP|164|50|\-69%|4000|1,228|
+|TSM|119|405|\+240%|4000|13,597|
+|AMZN|159|266|\+67%|4000|6,694|
+|DIS|179|103|\-42%|4000|2,302|
+|ABNB|150|132|\-12%|4000|3,529|
+|FSLY|88|16|\-81%|3000|556|
+|CRM|222|180|\-19%|3000|2,433|
+|ARKG|106|31|\-71%|2000|579|
+|JMIA|37|7|\-81%|2000|377|
+|JD|92|30|\-67%|2000|655|
+|**TOTAL**|\-|\-|\+111%|**$100,000**|**$210,786**|
+
+Two very strong years in a row for Reddit ETF, up 50% in the past 16 months since I last measured it.  Let's see how it stacks up against the market.
+
+|**Portfolio**|**Initial**|**4/22**|**1/23**|**1/24**|1/25|5/26|**% change**|
+|:-|:-|:-|:-|:-|:-|:-|:-|
+|Reddit ETF|100,000|70,125|56,558|83,579|140,882|210,786|**+111%**|
+|SPY|100,000|112,996|105,007|126,536|159,516|195,573|**+96%**|
+|VTI|100,000|109,552|100,903|120,221|151,287|184,085|**+84%**|
+
+Folks, I never thought I would see it.  Reddit consensus, at the period of peak euphoria, has now outperformed the market over a 5 year period.  At the behest of u/[gorays21](https://www.reddit.com/user/gorays21/).
+
+I was pretty relentless making fun of this for several years, but my my how the turntables.  Come take a bow.
+
+You do owe the portfolio manager a couple thousand bucks though.  Assuming you managed to hold onto this in its entirely through multiple years of large underperformance of course.",208,40,https://www.reddit.com/r/stocks/comments/1tob8md/reddit_etf_progress_from_jan_2021_to_jan_2026/,https://www.reddit.com/r/stocks/comments/1tob8md/reddit_etf_progress_from_jan_2021_to_jan_2026/
+reddit,stocks,1tn8pcy,1779714529.0,2026-05-25T13:08:49+00:00,The S&amp;P 500 is trading at 31.8x earnings. What exactly is the bull case from here?,"Looked at some valuation data today and honestly it's making me think more than I expected.
+
+trailing P/E is at 31.8x. Long-term average is \~17.6x. even the 10-year average is only \~23x. So we're not just ""a little elevated"" we're pretty stretched on a historical basis.
+
+the bull case is baked into the forward P/E: analysts have it at 23.2x, which means they're pricing in roughly 27% earnings growth over the next 12 months. that's... a lot to deliver on. Especially with rates still sitting around 4-4.5% on the 10Y, which means the equity risk premium is basically paper thin right now. you're earning a 3.1% earnings yield on the S&amp;P and getting \~4.3% risk-free..... that math only works if growth actually comes through.
+
+few things that stood out to me:
+
+ **tech is at 46.5x trailing P/E** and makes up 33.9% of the index. that sector alone is doing a lot of heavy lifting on the overall number.  
+ **Russell 2000 looks way more reasonable** at 17.9x trailing -actually below the long-term average.... small caps have been beaten up but the valuation gap vs large caps is pretty extreme right now.  
+ **energy and financials** are the only large sectors that look anywhere close to fairly valued (23x and 18.5x respectively).  
+ Individual names at the extreme end- TSLA at 394x trailing, ON Semi at 400x, PLTR at 217x. Those multiples imply very aggressive growth expectations compared to the broader market and highlight how much future success is already priced into certain parts of the index.
+
+I'm not saying a crash is coming or anything like that - valuations are a terrible timing tool.... but it does feel like a lot of the optimism is already priced in and the margin for error looks fairly thin. if earnings growth comes in below expectations, today's multiples could start looking much harder to justify...
+
+I've been digging through sector-level valuation data lately and the dispersion is much wider than I expected..... curious what everyone else is seeing.",906,558,https://www.reddit.com/r/stocks/comments/1tn8pcy/the_sp_500_is_trading_at_318x_earnings_what/,https://www.reddit.com/r/stocks/comments/1tn8pcy/the_sp_500_is_trading_at_318x_earnings_what/
+reddit,stocks,1to7vo6,1779804062.0,2026-05-26T14:01:02+00:00,Joby vs Archer is it the new BYD vs Tesla?,"And if so does that mean I invest in Archer?
+
+I held Archer during the hype run from $7 to $11 and I was looking at getting back in as it seems like the hype phase has died off but the commercialisation build up hasn’t really started yet so it’s at a bit of a low.
+
+But then I started looking further into their timelines and their competitors and while EHang seem to be in another league I feel like the main focus is on Joby vs Archer and it seems like Archer has all the hype, the big connections with AI players and tech investors while Joby has the more traditional partnerships and steady measurable progress.
+
+So how do you see it? Will Joby actually win in the end but Archer will have the better ride for investors in the meantime or is Archer primed to bounce on launch and then give up everything to Joby/eHang or are Archer the real deal? ",3,12,https://www.reddit.com/r/stocks/comments/1to7vo6/joby_vs_archer_is_it_the_new_byd_vs_tesla/,https://www.reddit.com/r/stocks/comments/1to7vo6/joby_vs_archer_is_it_the_new_byd_vs_tesla/
