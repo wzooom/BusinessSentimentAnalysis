@@ -6,3 +6,6 @@ matplotlib
 reportlab
 google-generativeai
 pytest
+pandas
+requests
+python-dotenv
