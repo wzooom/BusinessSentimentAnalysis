@@ -4,7 +4,7 @@ transformers
 onnxruntime
 matplotlib
 reportlab
-google-generativeai
+google-genai
 pytest
 pandas
 requests

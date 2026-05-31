@@ -4,7 +4,7 @@ Guidance for Claude Code when working on the BusinessSentimentAnalysis repo.
 
 ## Project overview
 
-A customer sentiment market analysis report generator for a data mining course project. The pipeline ingests Reddit posts about Chipotle, Starbucks, and Tesla, runs LDA topic modeling and RoBERTa-based emotion scoring, aggregates the results into a structured brief, and uses the Gemini API to generate a PDF report aimed at executives at the analyzed company.
+A stockholder sentiment market analysis report generator for a data mining course project. The pipeline ingests Reddit posts about Chipotle, Starbucks, and Tesla, runs LDA topic modeling and RoBERTa-based emotion scoring, aggregates the results into a structured brief, and uses the Gemini API to generate a PDF report aimed at executives at the analyzed company.
 
 Group project, 1-2 week timeline. Repo: https://github.com/wzooom/BusinessSentimentAnalysis
 

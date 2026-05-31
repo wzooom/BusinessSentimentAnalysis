@@ -1,5 +1,3 @@
-"""Step 1: Reddit and StockTwits ingestion."""
-
 from __future__ import annotations
 
 from datetime import datetime, timezone
@@ -11,16 +9,12 @@ import requests
 from src.config import RAW_DIR, ensure_data_dirs, get_env
 
 
-# ---------- Reddit ----------
-# Uses Reddit's public JSON endpoint (no developer credentials required).
-
 def fetch_subreddit_posts(
     subreddit_name: str = "stocks",
     limit: int = 50,
     listing: str = "hot",
     keywords: Iterable[str] | None = None,
 ) -> pd.DataFrame:
-    """Fetch posts from a subreddit and return them as a DataFrame."""
     if listing not in {"hot", "new", "top", "rising"}:
         raise ValueError("listing must be one of: hot, new, top, rising")
 
@@ -90,7 +84,6 @@ def save_reddit_posts(
     keywords: Iterable[str] | None = None,
     output_name: str = "reddit_posts.csv",
 ) -> str:
-    """Fetch Reddit posts and save them to data/raw."""
     ensure_data_dirs()
     df = fetch_subreddit_posts(
         subreddit_name=subreddit_name,
@@ -103,11 +96,7 @@ def save_reddit_posts(
     return str(output_path)
 
 
-# ---------- StockTwits ----------
-# Uses StockTwits' public symbol stream endpoint. May rate-limit if called too often.
-
 def fetch_stocktwits_messages(symbol: str = "TSLA", limit: int = 30) -> pd.DataFrame:
-    """Fetch recent StockTwits messages for a stock ticker."""
     symbol = symbol.upper().replace("$", "").strip()
     url = f"https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json"
     headers = {
@@ -164,7 +153,6 @@ def save_stocktwits_messages(
     limit: int = 30,
     output_name: str | None = None,
 ) -> str:
-    """Fetch StockTwits messages and save them to data/raw."""
     ensure_data_dirs()
     symbol = symbol.upper().replace("$", "").strip()
     if output_name is None:

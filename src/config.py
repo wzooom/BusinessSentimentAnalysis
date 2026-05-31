@@ -27,11 +27,9 @@ _ALL_DATA_DIRS = [RAW_DIR, PROCESSED_DIR, SCORED_DIR, TOPICS_DIR,
 
 
 def ensure_data_dirs() -> None:
-    """Create all data output folders if they do not already exist."""
     for directory in _ALL_DATA_DIRS:
         directory.mkdir(parents=True, exist_ok=True)
 
 
 def get_env(name: str, default: str | None = None) -> str | None:
-    """Read an environment variable with an optional default."""
     return os.getenv(name, default)

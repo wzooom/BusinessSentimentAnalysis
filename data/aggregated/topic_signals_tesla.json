@@ -1,0 +1,1533 @@
+{
+  "company": "tesla",
+  "generated_at": "2026-05-31T14:55:22-07:00",
+  "config": {
+    "confidence_min": 0.4,
+    "bucket_tz": "America/New_York",
+    "week_rule": "W-MON",
+    "spike_z": 2.5,
+    "spike_window": 7
+  },
+  "run": {
+    "k": 8,
+    "total_docs": 1143,
+    "kept_docs": 1106,
+    "dropped_low_conf": 37,
+    "bad_dates": 0,
+    "date_min": "2026-05-26",
+    "date_max": "2026-05-28",
+    "span_days": 2,
+    "n_weeks_observed": 1,
+    "weekly_emitted": false,
+    "spikes_emitted": false,
+    "lda": {
+      "best_k": 8,
+      "best_cv": 0.3763
+    }
+  },
+  "topics": [
+    {
+      "topic_id": 1,
+      "top_words": [
+        [
+          "spacex",
+          0.0533
+        ],
+        [
+          "merger",
+          0.0262
+        ],
+        [
+          "ipo",
+          0.0208
+        ],
+        [
+          "here",
+          0.0183
+        ],
+        [
+          "about",
+          0.0179
+        ],
+        [
+          "iran",
+          0.0177
+        ],
+        [
+          "deal",
+          0.0154
+        ],
+        [
+          "before",
+          0.0152
+        ],
+        [
+          "than",
+          0.0142
+        ],
+        [
+          "see",
+          0.0123
+        ]
+      ],
+      "volume": 184,
+      "share_kept": 0.1664,
+      "mean_dom_prob": 0.7369,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.022724568330281816,
+          "emotion_amusement": 0.029954053564534944,
+          "emotion_anger": 0.007388243102801996,
+          "emotion_annoyance": 0.018392431643371173,
+          "emotion_approval": 0.023482220568207694,
+          "emotion_caring": 0.0069230189947639045,
+          "emotion_confusion": 0.017902014680571704,
+          "emotion_curiosity": 0.032512762849948355,
+          "emotion_desire": 0.0032229639801376465,
+          "emotion_disappointment": 0.009929412808959093,
+          "emotion_disapproval": 0.013595995544888606,
+          "emotion_disgust": 0.0025600812294197064,
+          "emotion_embarrassment": 0.0031342756665926276,
+          "emotion_excitement": 0.0063469395640169506,
+          "emotion_fear": 0.005359747889422411,
+          "emotion_gratitude": 0.0038161620001750294,
+          "emotion_grief": 0.00014185686269551698,
+          "emotion_joy": 0.003945755680300065,
+          "emotion_love": 0.001248878217603415,
+          "emotion_nervousness": 0.0005799423029502151,
+          "emotion_neutral": 0.7589088644508378,
+          "emotion_optimism": 0.01119642323955298,
+          "emotion_pride": 0.0002595893658537594,
+          "emotion_realization": 0.0063050882066360385,
+          "emotion_relief": 0.00027055343303988367,
+          "emotion_remorse": 0.0008683371258783832,
+          "emotion_sadness": 0.002958522225550182,
+          "emotion_surprise": 0.006071292571748381
+        },
+        "top_non_neutral": [
+          [
+            "emotion_curiosity",
+            0.032512762849948355
+          ],
+          [
+            "emotion_amusement",
+            0.029954053564534944
+          ],
+          [
+            "emotion_approval",
+            0.023482220568207694
+          ],
+          [
+            "emotion_admiration",
+            0.022724568330281816
+          ],
+          [
+            "emotion_annoyance",
+            0.018392431643371173
+          ]
+        ],
+        "neutral_share": 0.7589088644508378,
+        "dominant_non_neutral": "emotion_curiosity",
+        "valence": {
+          "positive": 0.10324514396356654,
+          "negative": 0.0649088464025299,
+          "ambiguous": 0.07293714518306572
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 184,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 58,
+        "bearish": 21,
+        "unlabeled": 105,
+        "labeled_bullish_share": 0.7342
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 41,
+          "mean_dom_prob": 0.7842
+        },
+        {
+          "date": "2026-05-27",
+          "count": 87,
+          "mean_dom_prob": 0.7166
+        },
+        {
+          "date": "2026-05-28",
+          "count": 56,
+          "mean_dom_prob": 0.7338
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_00520",
+          "date": "2026-05-27",
+          "bucket": "positive",
+          "sentiment_label": null,
+          "dom_prob": 0.9635,
+          "text": "$TSLA After holding the green zone I highlighted as the bottom, it carved out a falling wedge just like the textbook says. Now it\u2019s squeezed between Fibonacci levels and the correction band resistance. If it breaks clean here, we could be seeing the **final move of the 2021 reac\u2026"
+        },
+        {
+          "post_idx": "tesla_00615",
+          "date": "2026-05-27",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.9583,
+          "text": "$SPY $USO $TSLA $DJT Trump basically every Day/week. \u201cThe deal is done. Iran wants a deal. The Deal is close. Iran can\u2019t have a Nuclear weapon, that\u2019s the deal. We don\u2019t agree on the deal. The deal is close & the deal is done.\u201d"
+        },
+        {
+          "post_idx": "tesla_00915",
+          "date": "2026-05-27",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9583,
+          "text": "$TSLA There is no merger coming for TSLA AND SPACEX It's a cool rumor but there is no meat to it I take the WS whale who bought the 3M+ sweep in 380c got this circulating as it was cited from someone 'close to the matter' Trade the rumor? Sure Is it going to happen? No Why? Beca\u2026"
+        },
+        {
+          "post_idx": "tesla_00159",
+          "date": "2026-05-28",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9602,
+          "text": "$SPY $DJT $USO $TSLA $BTC.X Theres talks of a deal to have talks about a deal to have time to have talks of a deal so that a deal could be talked about. Waiting now for Iran & Trump to see if they want to talk about a deal to have those talks about the deal to have a deal."
+        },
+        {
+          "post_idx": "tesla_01113",
+          "date": "2026-05-26",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9539,
+          "text": "This is straight from $SPCX S-1 filing on June 12 for $1.75 trillion. Elon Musk will pay everyone 100x-200x times for investing in SPACEX. Here's the playbook moment $SPCX goes public: $SATL\u2014 Satellogic imagery satellites; up 407% YTD, still early innings $GOOG\u2014 Google/Alphabet\u2026"
+        }
+      ]
+    },
+    {
+      "topic_id": 2,
+      "top_words": [
+        [
+          "today",
+          0.0296
+        ],
+        [
+          "calls",
+          0.0239
+        ],
+        [
+          "day",
+          0.0229
+        ],
+        [
+          "next",
+          0.0163
+        ],
+        [
+          "about",
+          0.015
+        ],
+        [
+          "out",
+          0.014
+        ],
+        [
+          "some",
+          0.0132
+        ],
+        [
+          "puts",
+          0.013
+        ],
+        [
+          "all",
+          0.0124
+        ],
+        [
+          "going",
+          0.0121
+        ]
+      ],
+      "volume": 163,
+      "share_kept": 0.1474,
+      "mean_dom_prob": 0.7273,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.029380697227552807,
+          "emotion_amusement": 0.04278955720587913,
+          "emotion_anger": 0.019605497042152312,
+          "emotion_annoyance": 0.026690359881537604,
+          "emotion_approval": 0.02659958578843301,
+          "emotion_caring": 0.007692141329688954,
+          "emotion_confusion": 0.021004862967552166,
+          "emotion_curiosity": 0.029915910908302056,
+          "emotion_desire": 0.002371042354896849,
+          "emotion_disappointment": 0.013328362677423867,
+          "emotion_disapproval": 0.016489808344509783,
+          "emotion_disgust": 0.003322640545465516,
+          "emotion_embarrassment": 0.0007543355373921462,
+          "emotion_excitement": 0.01386648534158231,
+          "emotion_fear": 0.005211420976903307,
+          "emotion_gratitude": 0.007175309666657046,
+          "emotion_grief": 0.000188531160395084,
+          "emotion_joy": 0.018932388782909062,
+          "emotion_love": 0.004952223419603666,
+          "emotion_nervousness": 0.0007751675358422158,
+          "emotion_neutral": 0.6677782788603145,
+          "emotion_optimism": 0.021490228391905595,
+          "emotion_pride": 0.0004913941380266546,
+          "emotion_realization": 0.004378385975294932,
+          "emotion_relief": 0.0005383321491979157,
+          "emotion_remorse": 0.001547483895161195,
+          "emotion_sadness": 0.005568748528865298,
+          "emotion_surprise": 0.0071608248716528156
+        },
+        "top_non_neutral": [
+          [
+            "emotion_amusement",
+            0.04278955720587913
+          ],
+          [
+            "emotion_curiosity",
+            0.029915910908302056
+          ],
+          [
+            "emotion_admiration",
+            0.029380697227552807
+          ],
+          [
+            "emotion_annoyance",
+            0.026690359881537604
+          ],
+          [
+            "emotion_approval",
+            0.02659958578843301
+          ]
+        ],
+        "neutral_share": 0.6677782788603145,
+        "dominant_non_neutral": "emotion_amusement",
+        "valence": {
+          "positive": 0.16621620211174717,
+          "negative": 0.0934823561256483,
+          "ambiguous": 0.07252316290229004
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 163,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 46,
+        "bearish": 27,
+        "unlabeled": 90,
+        "labeled_bullish_share": 0.6301
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 18,
+          "mean_dom_prob": 0.7952
+        },
+        {
+          "date": "2026-05-27",
+          "count": 84,
+          "mean_dom_prob": 0.72
+        },
+        {
+          "date": "2026-05-28",
+          "count": 61,
+          "mean_dom_prob": 0.7173
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_01069",
+          "date": "2026-05-26",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9539,
+          "text": "$TSLA not tough to pick our leaders minds. So you just have the richest man in the world in the best performing government in the world for one quarter and then hate each other? Great for public preception \ud83d\udc4d\ud83c\udffb. Really everything that needs to be said for the next 3 years was said\u2026"
+        },
+        {
+          "post_idx": "tesla_00358",
+          "date": "2026-05-28",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.9583,
+          "text": "$TSLA What an astounding TURD. The fundamentals are getting worse every day. Wall Street analysts project the heavy cash burn will persist, estimating anywhere from $9 billion to $11.6 billion in negative free cash flow for 2026 before returns materialize in \u201cfuture\u201dyears. Or no\u2026"
+        },
+        {
+          "post_idx": "tesla_00364",
+          "date": "2026-05-28",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9452,
+          "text": "$TSLA One day the market says \u201cInvestors are optimistic about a deal that can end the war.\u201d The next week market says \u201cInvestors are skeptical about the war.\u201d It\u2019s the most confusing thing in the WORLD. Are we optimistic or skeptical, we can\u2019t be both!"
+        },
+        {
+          "post_idx": "tesla_01136",
+          "date": "2026-05-26",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9717,
+          "text": "$TSLA this is probably gonna have a bad day tmrw. Been weak all day despite \u201cbreaking above\u201d a key resistance. Probably because they expect the market will dump overnight. Calls and puts both sold off, with puts crossing calls on the last pop to HOD. Bullish on this but will wai\u2026"
+        },
+        {
+          "post_idx": "tesla_00137",
+          "date": "2026-05-28",
+          "bucket": "negative",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9539,
+          "text": "$TSLA i don't hate the bears. i don't hate the bulls. bulls make money. bears make money. pigs get slaughtered. pigs are the cleanest hate. they\u2019re not directional. they\u2019re behavioral. everyone has a little pig in them on their worst days. hating that keeps you honest."
+        }
+      ]
+    },
+    {
+      "topic_id": 6,
+      "top_words": [
+        [
+          "money",
+          0.02
+        ],
+        [
+          "out",
+          0.0193
+        ],
+        [
+          "after",
+          0.0173
+        ],
+        [
+          "cap",
+          0.0148
+        ],
+        [
+          "million",
+          0.0137
+        ],
+        [
+          "going",
+          0.013
+        ],
+        [
+          "these",
+          0.0116
+        ],
+        [
+          "news",
+          0.0114
+        ],
+        [
+          "back",
+          0.011
+        ],
+        [
+          "amp",
+          0.0106
+        ]
+      ],
+      "volume": 139,
+      "share_kept": 0.1257,
+      "mean_dom_prob": 0.7533,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.008253095534303291,
+          "emotion_amusement": 0.03612206808062012,
+          "emotion_anger": 0.014304351511183214,
+          "emotion_annoyance": 0.017778540231433493,
+          "emotion_approval": 0.024924793158322755,
+          "emotion_caring": 0.009701420896928903,
+          "emotion_confusion": 0.00915744019102354,
+          "emotion_curiosity": 0.026617559091304952,
+          "emotion_desire": 0.003105958906996849,
+          "emotion_disappointment": 0.009505591010014375,
+          "emotion_disapproval": 0.008508881103950166,
+          "emotion_disgust": 0.0015960720943556908,
+          "emotion_embarrassment": 0.0007365029360091719,
+          "emotion_excitement": 0.00802005607597545,
+          "emotion_fear": 0.001124213416488343,
+          "emotion_gratitude": 0.01247033397940437,
+          "emotion_grief": 0.00025322900409806883,
+          "emotion_joy": 0.013155661183611436,
+          "emotion_love": 0.006019931962607301,
+          "emotion_nervousness": 0.0004606240559694891,
+          "emotion_neutral": 0.7444204219620995,
+          "emotion_optimism": 0.011476800972887028,
+          "emotion_pride": 0.0005202264323942499,
+          "emotion_realization": 0.007074787308072053,
+          "emotion_relief": 0.0009417465833968667,
+          "emotion_remorse": 0.0019271598662690278,
+          "emotion_sadness": 0.01533420451518377,
+          "emotion_surprise": 0.006488326269084092
+        },
+        "top_non_neutral": [
+          [
+            "emotion_amusement",
+            0.03612206808062012
+          ],
+          [
+            "emotion_curiosity",
+            0.026617559091304952
+          ],
+          [
+            "emotion_approval",
+            0.024924793158322755
+          ],
+          [
+            "emotion_annoyance",
+            0.017778540231433493
+          ],
+          [
+            "emotion_sadness",
+            0.01533420451518377
+          ]
+        ],
+        "neutral_share": 0.7444204219620995,
+        "dominant_non_neutral": "emotion_amusement",
+        "valence": {
+          "positive": 0.12190471396352287,
+          "negative": 0.0715293697449548,
+          "ambiguous": 0.06214549432942287
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 139,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 59,
+        "bearish": 23,
+        "unlabeled": 57,
+        "labeled_bullish_share": 0.7195
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 19,
+          "mean_dom_prob": 0.716
+        },
+        {
+          "date": "2026-05-27",
+          "count": 74,
+          "mean_dom_prob": 0.7637
+        },
+        {
+          "date": "2026-05-28",
+          "count": 46,
+          "mean_dom_prob": 0.7521
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_00786",
+          "date": "2026-05-27",
+          "bucket": "positive",
+          "sentiment_label": "Bearish",
+          "dom_prob": 0.9513,
+          "text": "$SPY lmfao some woman on Bloomberg talking about space x just said fundamentals don\u2019t matter it\u2019s a retail driven narrative driven market. Ha ha ha I can\u2019t stop fucking laughing $TSLA This is gonna end well!"
+        },
+        {
+          "post_idx": "tesla_00197",
+          "date": "2026-05-28",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.9513,
+          "text": "$SPY $TSLA $USO $DJT So sending bombs back & fourth last night to another deal today. \ud83e\udd26\u200d\u2642\ufe0f\ud83d\ude02\ud83e\udd26\u200d\u2642\ufe0f\ud83d\ude02 Trump needs to be impeached. I was rooting for him but nothing has been accomplished besides the Border. Inflation is up, wars haven\u2019t been stopped & new ones have happened. Gave him\u2026"
+        },
+        {
+          "post_idx": "tesla_00735",
+          "date": "2026-05-27",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9027,
+          "text": "$TSLA Within 3 months, Tesla market cap will be surpassed bu MU, AMD, and IBM. Wasn't someone sh!ttalking that Tesla would be more valuable than the top 5 tech companies combined awhile back? \ud83e\udd23"
+        },
+        {
+          "post_idx": "tesla_00454",
+          "date": "2026-05-27",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9635,
+          "text": "$UAMY Back when I was in $TSLA around 2017 I got into $LAC as a complementary play. The gov't took a stake. I got into $MP in 2024 fall/winter. The gov't took a stake. I got into $USAR December of last year. The gov't took a stake in less than a month. I didn't get every single\u2026"
+        },
+        {
+          "post_idx": "tesla_00211",
+          "date": "2026-05-28",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9513,
+          "text": "$PLTR $TSLA Dude needs to calm down and stop being so emotional. You\u2019re never going to make real money in the market if you\u2019re freaking out every five minutes. Sounds like a kid though, so I guess it makes sense."
+        }
+      ]
+    },
+    {
+      "topic_id": 4,
+      "top_words": [
+        [
+          "going",
+          0.0279
+        ],
+        [
+          "now",
+          0.0274
+        ],
+        [
+          "right",
+          0.0232
+        ],
+        [
+          "all",
+          0.0222
+        ],
+        [
+          "run",
+          0.0204
+        ],
+        [
+          "let",
+          0.0203
+        ],
+        [
+          "time",
+          0.0126
+        ],
+        [
+          "back",
+          0.0125
+        ],
+        [
+          "here",
+          0.0113
+        ],
+        [
+          "high",
+          0.011
+        ]
+      ],
+      "volume": 132,
+      "share_kept": 0.1193,
+      "mean_dom_prob": 0.7431,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.03520644550967006,
+          "emotion_amusement": 0.041609245397416436,
+          "emotion_anger": 0.004981715745657868,
+          "emotion_annoyance": 0.013052539565861285,
+          "emotion_approval": 0.016997276278872944,
+          "emotion_caring": 0.01510671342690761,
+          "emotion_confusion": 0.01365536000077767,
+          "emotion_curiosity": 0.033865986147578964,
+          "emotion_desire": 0.0023027860404094343,
+          "emotion_disappointment": 0.005657839165773096,
+          "emotion_disapproval": 0.0063757154687187805,
+          "emotion_disgust": 0.004509810505061032,
+          "emotion_embarrassment": 0.0005064380177487734,
+          "emotion_excitement": 0.009871188173276276,
+          "emotion_fear": 0.001012144282976307,
+          "emotion_gratitude": 0.009225249688950997,
+          "emotion_grief": 0.00013811915403681672,
+          "emotion_joy": 0.007445485372453211,
+          "emotion_love": 0.0014147277810107653,
+          "emotion_nervousness": 0.00026711685412327994,
+          "emotion_neutral": 0.7547774808821937,
+          "emotion_optimism": 0.011622568750925521,
+          "emotion_pride": 0.0004704921167255389,
+          "emotion_realization": 0.0041888209252291305,
+          "emotion_relief": 0.0004640819409479938,
+          "emotion_remorse": 0.00022437165146718544,
+          "emotion_sadness": 0.0028345698988712044,
+          "emotion_surprise": 0.002215711713397302
+        },
+        "top_non_neutral": [
+          [
+            "emotion_amusement",
+            0.041609245397416436
+          ],
+          [
+            "emotion_admiration",
+            0.03520644550967006
+          ],
+          [
+            "emotion_curiosity",
+            0.033865986147578964
+          ],
+          [
+            "emotion_approval",
+            0.016997276278872944
+          ],
+          [
+            "emotion_caring",
+            0.01510671342690761
+          ]
+        ],
+        "neutral_share": 0.7547774808821937,
+        "dominant_non_neutral": "emotion_amusement",
+        "valence": {
+          "positive": 0.13432676101024973,
+          "negative": 0.03956038031029563,
+          "ambiguous": 0.07133537779726098
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 132,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 52,
+        "bearish": 10,
+        "unlabeled": 70,
+        "labeled_bullish_share": 0.8387
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 13,
+          "mean_dom_prob": 0.8144
+        },
+        {
+          "date": "2026-05-27",
+          "count": 63,
+          "mean_dom_prob": 0.7421
+        },
+        {
+          "date": "2026-05-28",
+          "count": 56,
+          "mean_dom_prob": 0.7277
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_00431",
+          "date": "2026-05-27",
+          "bucket": "positive",
+          "sentiment_label": null,
+          "dom_prob": 0.9374,
+          "text": "$BTC.X $NVDA $SPY $TSLA $USO BUT BUT BUT BUT THE IRANIANS ATE CLOSE TO A DEAL. ITS A BEAUTIFUL DEAL. THE BEST DEAL. JUST DAYS AWAY \ud83e\udd23 hope yinz didn\u2019t hold calls overnight"
+        },
+        {
+          "post_idx": "tesla_00802",
+          "date": "2026-05-27",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.854,
+          "text": "$TSLA seriously, they always do that crap, overnight push then dump crap during the day like a video game"
+        },
+        {
+          "post_idx": "tesla_00875",
+          "date": "2026-05-27",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9619,
+          "text": "$TSLA an unverified no name \"source close to the situation\" said that Musk thought about something once. Rad. Let's add 10 billion to the market cap. Makes sense. You guys do know that it can't legally happen right now, right? You do know that. Right?"
+        },
+        {
+          "post_idx": "tesla_00543",
+          "date": "2026-05-27",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9663,
+          "text": "Intraday tape is absolutely extended across the board today with high beta names leading the move. $IREN up ~160% $TSLA up ~150% $APLD up ~70% $AFRM up ~40% What stands out is not just the magnitude of the moves, but the breadth of participation across multiple sectors simultane\u2026"
+        },
+        {
+          "post_idx": "tesla_01083",
+          "date": "2026-05-26",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9619,
+          "text": "$TSLA is back in headline-driven territory after reports that Musk has floated the idea of combining Tesla and SpaceX into a single entity. If even partially true, this is a major structural narrative shift, blending EVs, AI, and aerospace under one capital framework. Markets do\u2026"
+        }
+      ]
+    },
+    {
+      "topic_id": 7,
+      "top_words": [
+        [
+          "sell",
+          0.0387
+        ],
+        [
+          "lol",
+          0.0367
+        ],
+        [
+          "all",
+          0.0207
+        ],
+        [
+          "again",
+          0.0158
+        ],
+        [
+          "ath",
+          0.0151
+        ],
+        [
+          "night",
+          0.0151
+        ],
+        [
+          "off",
+          0.0138
+        ],
+        [
+          "now",
+          0.0136
+        ],
+        [
+          "soon",
+          0.0128
+        ],
+        [
+          "how",
+          0.0121
+        ]
+      ],
+      "volume": 130,
+      "share_kept": 0.1175,
+      "mean_dom_prob": 0.7364,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.018985843192372058,
+          "emotion_amusement": 0.12955652273562512,
+          "emotion_anger": 0.008442055537928577,
+          "emotion_annoyance": 0.021674551836608148,
+          "emotion_approval": 0.02637457750842423,
+          "emotion_caring": 0.00322986101208289,
+          "emotion_confusion": 0.010483826057248766,
+          "emotion_curiosity": 0.02514415361282269,
+          "emotion_desire": 0.002344320300705104,
+          "emotion_disappointment": 0.020704558751823,
+          "emotion_disapproval": 0.008954680080305645,
+          "emotion_disgust": 0.0018942686859954238,
+          "emotion_embarrassment": 0.0012084219045510763,
+          "emotion_excitement": 0.01215689464917401,
+          "emotion_fear": 0.0009165146635423384,
+          "emotion_gratitude": 0.012159800688284874,
+          "emotion_grief": 0.00024248794202714035,
+          "emotion_joy": 0.01392716756478054,
+          "emotion_love": 0.007496165832877676,
+          "emotion_nervousness": 0.0004300015724682967,
+          "emotion_neutral": 0.6388583269469048,
+          "emotion_optimism": 0.009284504111493307,
+          "emotion_pride": 0.0003070381455817878,
+          "emotion_realization": 0.005126749222332747,
+          "emotion_relief": 0.0004861335523409864,
+          "emotion_remorse": 0.000821726739451333,
+          "emotion_sadness": 0.011077823772241568,
+          "emotion_surprise": 0.0077110273285378155
+        },
+        "top_non_neutral": [
+          [
+            "emotion_amusement",
+            0.12955652273562512
+          ],
+          [
+            "emotion_approval",
+            0.02637457750842423
+          ],
+          [
+            "emotion_curiosity",
+            0.02514415361282269
+          ],
+          [
+            "emotion_annoyance",
+            0.021674551836608148
+          ],
+          [
+            "emotion_disappointment",
+            0.020704558751823
+          ]
+        ],
+        "neutral_share": 0.6388583269469048,
+        "dominant_non_neutral": "emotion_amusement",
+        "valence": {
+          "positive": 0.2307346479809546,
+          "negative": 0.07636709148694254,
+          "ambiguous": 0.05403993358519804
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 130,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 48,
+        "bearish": 20,
+        "unlabeled": 62,
+        "labeled_bullish_share": 0.7059
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 11,
+          "mean_dom_prob": 0.7184
+        },
+        {
+          "date": "2026-05-27",
+          "count": 76,
+          "mean_dom_prob": 0.7287
+        },
+        {
+          "date": "2026-05-28",
+          "count": 43,
+          "mean_dom_prob": 0.7545
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_00498",
+          "date": "2026-05-27",
+          "bucket": "positive",
+          "sentiment_label": null,
+          "dom_prob": 0.9204,
+          "text": "$TSLA everytime I want to pull the trigger on $NBIS and dont it takes off without me lol. Damn this pisses me off"
+        },
+        {
+          "post_idx": "tesla_00108",
+          "date": "2026-05-28",
+          "bucket": "negative",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.8539,
+          "text": "$TSLA cmon, make this go pass that $454 wall already!!! Block those bears!"
+        },
+        {
+          "post_idx": "tesla_00326",
+          "date": "2026-05-28",
+          "bucket": "curious",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.854,
+          "text": "$NVDA $AMD $SMCI $PLTR $TSLA How you gonna catch a fish if you never put a hook in the water?"
+        },
+        {
+          "post_idx": "tesla_00649",
+          "date": "2026-05-27",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9562,
+          "text": "$TSLA Guys at work say, \u201cDamn it was hot last night tryin to sleep!\u201d My reply, \u201cIt was fine at my house, I had the Air Conditioning running all night.\u201d They ask, \u201cHow the H3LL can you afford to run that all night long?!\u201d My reply, \u201c That\u2019s cause I gotta Tesla PowerWall and Solar\u2026"
+        },
+        {
+          "post_idx": "tesla_00347",
+          "date": "2026-05-28",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9562,
+          "text": "$TSLA Guys at work say, \u201cDamn it was hot last night tryin to sleep!\u201d My reply, \u201cIt was fine at my house, I had the Air Conditioning running all night.\u201d They ask, \u201cHow the H3LL can you afford to run that all night long?!\u201d My reply, \u201cThat\u2019s cause I gotta Tesla PowerWall and Solar\u2026"
+        }
+      ]
+    },
+    {
+      "topic_id": 0,
+      "top_words": [
+        [
+          "buy",
+          0.0309
+        ],
+        [
+          "tomorrow",
+          0.0271
+        ],
+        [
+          "calls",
+          0.02
+        ],
+        [
+          "back",
+          0.0196
+        ],
+        [
+          "higher",
+          0.018
+        ],
+        [
+          "all",
+          0.016
+        ],
+        [
+          "gets",
+          0.0128
+        ],
+        [
+          "time",
+          0.0128
+        ],
+        [
+          "quot",
+          0.0125
+        ],
+        [
+          "day",
+          0.0112
+        ]
+      ],
+      "volume": 125,
+      "share_kept": 0.113,
+      "mean_dom_prob": 0.7381,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.02740241942540247,
+          "emotion_amusement": 0.056694119261488415,
+          "emotion_anger": 0.01294483557782797,
+          "emotion_annoyance": 0.02722020013983465,
+          "emotion_approval": 0.02961451108928455,
+          "emotion_caring": 0.00634513761006403,
+          "emotion_confusion": 0.005857852171004151,
+          "emotion_curiosity": 0.023791239338819443,
+          "emotion_desire": 0.004321018603697805,
+          "emotion_disappointment": 0.005850289814604541,
+          "emotion_disapproval": 0.009378971261642138,
+          "emotion_disgust": 0.0016056978235721756,
+          "emotion_embarrassment": 0.0005287920727775297,
+          "emotion_excitement": 0.010559095904078133,
+          "emotion_fear": 0.0015795068972812463,
+          "emotion_gratitude": 0.01658399745844481,
+          "emotion_grief": 0.00013083124167918427,
+          "emotion_joy": 0.004921191917447978,
+          "emotion_love": 0.002428044409988934,
+          "emotion_nervousness": 0.00022696720658730354,
+          "emotion_neutral": 0.7083584557394642,
+          "emotion_optimism": 0.0342735354038068,
+          "emotion_pride": 0.0002839426307494878,
+          "emotion_realization": 0.0029824277419440463,
+          "emotion_relief": 0.0003283875565613717,
+          "emotion_remorse": 0.0003379485667583099,
+          "emotion_sadness": 0.0035304175793993316,
+          "emotion_surprise": 0.0019201637427628253
+        },
+        "top_non_neutral": [
+          [
+            "emotion_amusement",
+            0.056694119261488415
+          ],
+          [
+            "emotion_optimism",
+            0.0342735354038068
+          ],
+          [
+            "emotion_approval",
+            0.02961451108928455
+          ],
+          [
+            "emotion_admiration",
+            0.02740241942540247
+          ],
+          [
+            "emotion_annoyance",
+            0.02722020013983465
+          ]
+        ],
+        "neutral_share": 0.7083584557394642,
+        "dominant_non_neutral": "emotion_amusement",
+        "valence": {
+          "positive": 0.1830892450572529,
+          "negative": 0.06333445818196437,
+          "ambiguous": 0.04521784102131851
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 125,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 47,
+        "bearish": 15,
+        "unlabeled": 63,
+        "labeled_bullish_share": 0.7581
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 18,
+          "mean_dom_prob": 0.7663
+        },
+        {
+          "date": "2026-05-27",
+          "count": 55,
+          "mean_dom_prob": 0.7247
+        },
+        {
+          "date": "2026-05-28",
+          "count": 52,
+          "mean_dom_prob": 0.7425
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_00061",
+          "date": "2026-05-28",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9726,
+          "text": "$TSLA Look BELOW Folks! Dont miss out and have to chase later when they make a run for it! Get in now! Come back and thank me later! \ud83d\udc4c\ud83c\udffe Reversals Incoming!!! $SCHW Analyst Bullish - Hit all time low $BSX Great Entry- At all time low $MCD Analysts Signal Outperform $WMT BUY Signa\u2026"
+        },
+        {
+          "post_idx": "tesla_00374",
+          "date": "2026-05-28",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.8749,
+          "text": "$TSLA Big boys assholes stealing retail every day. SEC no longer exist."
+        },
+        {
+          "post_idx": "tesla_00406",
+          "date": "2026-05-28",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.781,
+          "text": "$TSLA what\u2019s the volume on the action folks?"
+        },
+        {
+          "post_idx": "tesla_00920",
+          "date": "2026-05-27",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9698,
+          "text": "$TSLA Seems like we been here SO many times in the past. But over and over the nah Sayers continue to be bad at understanding the (Don't bet against Tesla). He won't mass produce an electric car. Shoot a rocket into space and retrieve it on a landing pad, put Starlink into space\u2026"
+        },
+        {
+          "post_idx": "tesla_00109",
+          "date": "2026-05-28",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9708,
+          "text": "$TSLA Look BELOW Folks! Dont miss out and have to chase later. Get in now! Come back and thank me later! \ud83d\udc4c\ud83c\udffe Reversals Incoming!\u2026. $SCHW Analyst Bullish - Hit all time low $BSX Great Entry- At all time low $MCD Analysts Signal Outperform $WMT BUY Signals! These will be the next r\u2026"
+        }
+      ]
+    },
+    {
+      "topic_id": 3,
+      "top_words": [
+        [
+          "quot",
+          0.0181
+        ],
+        [
+          "short",
+          0.0153
+        ],
+        [
+          "over",
+          0.0146
+        ],
+        [
+          "don",
+          0.0143
+        ],
+        [
+          "buy",
+          0.0136
+        ],
+        [
+          "all",
+          0.0135
+        ],
+        [
+          "risk",
+          0.0131
+        ],
+        [
+          "volume",
+          0.0126
+        ],
+        [
+          "only",
+          0.0121
+        ],
+        [
+          "now",
+          0.0096
+        ]
+      ],
+      "volume": 124,
+      "share_kept": 0.1121,
+      "mean_dom_prob": 0.7455,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.014841737326398657,
+          "emotion_amusement": 0.052757124190336346,
+          "emotion_anger": 0.005540785780880753,
+          "emotion_annoyance": 0.01851343010472027,
+          "emotion_approval": 0.023816552419369787,
+          "emotion_caring": 0.007613308261337098,
+          "emotion_confusion": 0.014707248791690173,
+          "emotion_curiosity": 0.02587191039343108,
+          "emotion_desire": 0.0023750346088319664,
+          "emotion_disappointment": 0.015965668416900697,
+          "emotion_disapproval": 0.013308833181672204,
+          "emotion_disgust": 0.0016043540379380025,
+          "emotion_embarrassment": 0.0006183467722515892,
+          "emotion_excitement": 0.019471066239079602,
+          "emotion_fear": 0.0010749535821974838,
+          "emotion_gratitude": 0.003079489787286138,
+          "emotion_grief": 0.0001688125446108049,
+          "emotion_joy": 0.006522940413327819,
+          "emotion_love": 0.007177155091444555,
+          "emotion_nervousness": 0.0004378361414002416,
+          "emotion_neutral": 0.7308678091679129,
+          "emotion_optimism": 0.017357588692356304,
+          "emotion_pride": 0.00031297721178769695,
+          "emotion_realization": 0.004586303854189069,
+          "emotion_relief": 0.0004236467610009966,
+          "emotion_remorse": 0.0009544699717758778,
+          "emotion_sadness": 0.0077268536221769294,
+          "emotion_surprise": 0.002303764172893456
+        },
+        "top_non_neutral": [
+          [
+            "emotion_amusement",
+            0.052757124190336346
+          ],
+          [
+            "emotion_curiosity",
+            0.02587191039343108
+          ],
+          [
+            "emotion_approval",
+            0.023816552419369787
+          ],
+          [
+            "emotion_excitement",
+            0.019471066239079602
+          ],
+          [
+            "emotion_annoyance",
+            0.01851343010472027
+          ]
+        ],
+        "neutral_share": 0.7308678091679129,
+        "dominant_non_neutral": "emotion_amusement",
+        "valence": {
+          "positive": 0.1457602781323879,
+          "negative": 0.06591434415652485,
+          "ambiguous": 0.05745756854317431
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 124,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 48,
+        "bearish": 11,
+        "unlabeled": 65,
+        "labeled_bullish_share": 0.8136
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 15,
+          "mean_dom_prob": 0.7039
+        },
+        {
+          "date": "2026-05-27",
+          "count": 66,
+          "mean_dom_prob": 0.7704
+        },
+        {
+          "date": "2026-05-28",
+          "count": 43,
+          "mean_dom_prob": 0.7219
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_00336",
+          "date": "2026-05-28",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9485,
+          "text": "I stated this yesterday, then it started its move And now at this super early early Pm hour it\u2019s still moving with relatively very large volume Reverse merger or other big news is imminent NIVF It\u2019s so time Congrats all $BYND $OSRH $SPY $TSLA"
+        },
+        {
+          "post_idx": "tesla_01019",
+          "date": "2026-05-26",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.927,
+          "text": "$TSLA $SPX We are really winning..We just don\u2019t seem to learn. Piper Sandler says Strait of Hormuz to remain closed for months. More pain for most of the country as gas prices aren\u2019t coming down anytime soon."
+        },
+        {
+          "post_idx": "tesla_00803",
+          "date": "2026-05-27",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.7811,
+          "text": "$TSLA short lived , same as yesterday?\ud83e\udd14"
+        },
+        {
+          "post_idx": "tesla_00034",
+          "date": "2026-05-28",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9698,
+          "text": "Okay\u2026 let\u2019s think about this for a second If $ONDS runs like this and squeezes violently, it\u2019s not just about that stock momentum, sentiment, and sector rotation could spill over. For $TSLA, it could mean: Increased risk appetite across tech/EV/innovation plays More short-term v\u2026"
+        },
+        {
+          "post_idx": "tesla_00433",
+          "date": "2026-05-27",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.965,
+          "text": "$INTC $TSLA ELON MUSK: \u201cFOR THE NEXT FEW YEARS AMERICA IS LIKELY TO WIN THE RACE IN AI. THEN IT WILL BE A FUNCTION OF WHO CONTROLS THE AI CHIP FABRICATION. IF MORE OF THE FACTORIES ARE OWNED BY CHINA THEN CHINA WILL WIN.\" \"RIGHT NOW ALL THE CHIP FABS ARE IN TAIWAN. 100%.\" \"IF CH\u2026"
+        }
+      ]
+    },
+    {
+      "topic_id": 5,
+      "top_words": [
+        [
+          "lol",
+          0.03
+        ],
+        [
+          "time",
+          0.0263
+        ],
+        [
+          "moon",
+          0.0162
+        ],
+        [
+          "low",
+          0.0134
+        ],
+        [
+          "need",
+          0.0129
+        ],
+        [
+          "now",
+          0.012
+        ],
+        [
+          "shorts",
+          0.0118
+        ],
+        [
+          "all",
+          0.0116
+        ],
+        [
+          "bears",
+          0.0116
+        ],
+        [
+          "high",
+          0.0115
+        ]
+      ],
+      "volume": 109,
+      "share_kept": 0.0986,
+      "mean_dom_prob": 0.7547,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.017902512451834728,
+          "emotion_amusement": 0.16471042047257656,
+          "emotion_anger": 0.013350083850982164,
+          "emotion_annoyance": 0.017942396312378196,
+          "emotion_approval": 0.018604423532240642,
+          "emotion_caring": 0.006571375798829391,
+          "emotion_confusion": 0.014310172947314842,
+          "emotion_curiosity": 0.03339748225792332,
+          "emotion_desire": 0.00799982253976909,
+          "emotion_disappointment": 0.008199642448896568,
+          "emotion_disapproval": 0.009799459321700442,
+          "emotion_disgust": 0.0015934574286427282,
+          "emotion_embarrassment": 0.002256037318920638,
+          "emotion_excitement": 0.013499920038114567,
+          "emotion_fear": 0.0008310304265766982,
+          "emotion_gratitude": 0.012011043341210854,
+          "emotion_grief": 0.00014726804847575156,
+          "emotion_joy": 0.020506027843646298,
+          "emotion_love": 0.0015239033398364514,
+          "emotion_nervousness": 0.0002767586525723628,
+          "emotion_neutral": 0.6037740823297872,
+          "emotion_optimism": 0.017694534377664942,
+          "emotion_pride": 0.0002588311381689759,
+          "emotion_realization": 0.00346230521422427,
+          "emotion_relief": 0.00045619077222323434,
+          "emotion_remorse": 0.0006999259582548324,
+          "emotion_sadness": 0.005173634710068438,
+          "emotion_surprise": 0.003047258525630414
+        },
+        "top_non_neutral": [
+          [
+            "emotion_amusement",
+            0.16471042047257656
+          ],
+          [
+            "emotion_curiosity",
+            0.03339748225792332
+          ],
+          [
+            "emotion_joy",
+            0.020506027843646298
+          ],
+          [
+            "emotion_approval",
+            0.018604423532240642
+          ],
+          [
+            "emotion_annoyance",
+            0.017942396312378196
+          ]
+        ],
+        "neutral_share": 0.6037740823297872,
+        "dominant_non_neutral": "emotion_amusement",
+        "valence": {
+          "positive": 0.2671678073075173,
+          "negative": 0.06026969447746881,
+          "ambiguous": 0.06878841588522662
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 109,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 58,
+        "bearish": 3,
+        "unlabeled": 48,
+        "labeled_bullish_share": 0.9508
+      },
+      "daily": [
+        {
+          "date": "2026-05-26",
+          "count": 11,
+          "mean_dom_prob": 0.7287
+        },
+        {
+          "date": "2026-05-27",
+          "count": 57,
+          "mean_dom_prob": 0.7646
+        },
+        {
+          "date": "2026-05-28",
+          "count": 41,
+          "mean_dom_prob": 0.748
+        }
+      ],
+      "weekly": [],
+      "wow": null,
+      "spikes": [],
+      "quotes": [
+        {
+          "post_idx": "tesla_00629",
+          "date": "2026-05-27",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9124,
+          "text": "$AMZN $NVDA $QQQ $SPY $TSLA There are 3 mentions of the word \u201cDEAL\u201d so time to rally as algos only scan for that word to pump and I am glad this time we have 3 mentions of same deal word"
+        },
+        {
+          "post_idx": "tesla_01110",
+          "date": "2026-05-26",
+          "bucket": "negative",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.8248,
+          "text": "$TSLA let the bear f*cking commence\u2026 optimus full penetration mode: activated"
+        },
+        {
+          "post_idx": "tesla_00182",
+          "date": "2026-05-28",
+          "bucket": "curious",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9374,
+          "text": "$PONY this is the waymo of everywhere outside the usa. If waymo is worth 100b how much do you think this should be? Musk believes robotaxi service is worth 1trillion market cap added to $TSLA Expect this to get $BABA level valuation someday."
+        },
+        {
+          "post_idx": "tesla_00973",
+          "date": "2026-05-27",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9619,
+          "text": "$TSLA stayed near the top of the flow board Tuesday \u2014 279 graded signals, $35.6M in premium. The directional split was lopsided: ~84% bullish (calls bought, puts sold) versus the bearish side. High signal count plus a heavy one-sided skew is the combination worth watching; this\u2026"
+        },
+        {
+          "post_idx": "tesla_00449",
+          "date": "2026-05-27",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9602,
+          "text": "@Barbadak watch how the candle moves\u2026 all the technical indicators need to be touched and pulled\u2026 and it did\u2026 this game in options market would have got easy 40-60% in 15 minutes\u2026 next to satisfy the tech.. it needs to drop in the next 30 min or within this time. I\u2019ll post it $T\u2026"
+        }
+      ]
+    }
+  ],
+  "cooccurrence": {
+    "mode": "soft_within_doc_cosine",
+    "note": "cosine over soft topic-prob columns; diagonal omitted",
+    "top_pairs": [
+      {
+        "a": 0,
+        "b": 1,
+        "score": 0.1063
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "score": 0.1062
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "score": 0.1028
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "score": 0.1023
+      },
+      {
+        "a": 0,
+        "b": 4,
+        "score": 0.1017
+      }
+    ]
+  }
+}
