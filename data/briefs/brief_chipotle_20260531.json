@@ -1,0 +1,5454 @@
+{
+  "company": "chipotle",
+  "brief_date": "2026-05-31",
+  "generated_at": "2026-05-31T18:02:48-07:00",
+  "gemini": {
+    "model": "gemini-2.5-flash-lite",
+    "topic_calls": 6,
+    "cache_hits": 0,
+    "cache_misses": 6,
+    "failures": 0,
+    "empty_topics_skipped": 0
+  },
+  "source_signals_path": "/Users/school/BusinessSentimentAnalysis/data/aggregated/topic_signals_chipotle.json",
+  "config": {
+    "confidence_min": 0.4,
+    "bucket_tz": "America/New_York",
+    "week_rule": "W-MON",
+    "spike_z": 2.5,
+    "spike_window": 7
+  },
+  "run": {
+    "k": 6,
+    "total_docs": 1181,
+    "kept_docs": 1155,
+    "dropped_low_conf": 26,
+    "bad_dates": 0,
+    "date_min": "2026-02-04",
+    "date_max": "2026-05-28",
+    "span_days": 113,
+    "n_weeks_observed": 17,
+    "weekly_emitted": true,
+    "spikes_emitted": true,
+    "lda": {
+      "best_k": 6,
+      "best_cv": 0.3798
+    }
+  },
+  "topics": [
+    {
+      "topic_id": 3,
+      "top_words": [
+        [
+          "week",
+          0.0281
+        ],
+        [
+          "good",
+          0.022
+        ],
+        [
+          "all",
+          0.019
+        ],
+        [
+          "today",
+          0.0187
+        ],
+        [
+          "back",
+          0.0137
+        ],
+        [
+          "cava",
+          0.0133
+        ],
+        [
+          "off",
+          0.0127
+        ],
+        [
+          "day",
+          0.0122
+        ],
+        [
+          "let",
+          0.0121
+        ],
+        [
+          "earnings",
+          0.0118
+        ]
+      ],
+      "volume": 219,
+      "share_kept": 0.1896,
+      "mean_dom_prob": 0.7558,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.03484612372318165,
+          "emotion_amusement": 0.014493054569078737,
+          "emotion_anger": 0.01190425755357768,
+          "emotion_annoyance": 0.028458594889447065,
+          "emotion_approval": 0.032529411716942715,
+          "emotion_caring": 0.011322346081941855,
+          "emotion_confusion": 0.014792774885387437,
+          "emotion_curiosity": 0.02685896411453756,
+          "emotion_desire": 0.0038482214745581738,
+          "emotion_disappointment": 0.023914828865417747,
+          "emotion_disapproval": 0.01799557085661918,
+          "emotion_disgust": 0.0022850022988911206,
+          "emotion_embarrassment": 0.0006744532093622808,
+          "emotion_excitement": 0.008293139705264959,
+          "emotion_fear": 0.0024223776586108888,
+          "emotion_gratitude": 0.006104866973433721,
+          "emotion_grief": 0.00021529435213631126,
+          "emotion_joy": 0.00955651387354342,
+          "emotion_love": 0.0057322700080345785,
+          "emotion_nervousness": 0.0020373120587787565,
+          "emotion_neutral": 0.6850425242417698,
+          "emotion_optimism": 0.04042024610261608,
+          "emotion_pride": 0.0004422495514778244,
+          "emotion_realization": 0.005179452289904252,
+          "emotion_relief": 0.0017146140877343785,
+          "emotion_remorse": 0.0005686747617080809,
+          "emotion_sadness": 0.004120799885657824,
+          "emotion_surprise": 0.004226055748855552
+        },
+        "top_non_neutral": [
+          [
+            "emotion_optimism",
+            0.04042024610261608
+          ],
+          [
+            "emotion_admiration",
+            0.03484612372318165
+          ],
+          [
+            "emotion_approval",
+            0.032529411716942715
+          ],
+          [
+            "emotion_annoyance",
+            0.028458594889447065
+          ],
+          [
+            "emotion_curiosity",
+            0.02685896411453756
+          ]
+        ],
+        "neutral_share": 0.6850425242417698,
+        "dominant_non_neutral": "emotion_optimism",
+        "valence": {
+          "positive": 0.15413249031130807,
+          "negative": 0.09459716639020693,
+          "ambiguous": 0.06622781905671518
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 219,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 83,
+        "bearish": 13,
+        "unlabeled": 123,
+        "labeled_bullish_share": 0.8646
+      },
+      "daily": [
+        {
+          "date": "2026-02-04",
+          "count": 9,
+          "mean_dom_prob": 0.7788
+        },
+        {
+          "date": "2026-02-05",
+          "count": 1,
+          "mean_dom_prob": 0.9354
+        },
+        {
+          "date": "2026-02-06",
+          "count": 2,
+          "mean_dom_prob": 0.5975
+        },
+        {
+          "date": "2026-02-07",
+          "count": 1,
+          "mean_dom_prob": 0.7903
+        },
+        {
+          "date": "2026-02-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-09",
+          "count": 2,
+          "mean_dom_prob": 0.794
+        },
+        {
+          "date": "2026-02-10",
+          "count": 3,
+          "mean_dom_prob": 0.7355
+        },
+        {
+          "date": "2026-02-11",
+          "count": 5,
+          "mean_dom_prob": 0.7365
+        },
+        {
+          "date": "2026-02-12",
+          "count": 3,
+          "mean_dom_prob": 0.7056
+        },
+        {
+          "date": "2026-02-13",
+          "count": 1,
+          "mean_dom_prob": 0.756
+        },
+        {
+          "date": "2026-02-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-17",
+          "count": 5,
+          "mean_dom_prob": 0.7046
+        },
+        {
+          "date": "2026-02-18",
+          "count": 1,
+          "mean_dom_prob": 0.8948
+        },
+        {
+          "date": "2026-02-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-20",
+          "count": 2,
+          "mean_dom_prob": 0.8528
+        },
+        {
+          "date": "2026-02-21",
+          "count": 1,
+          "mean_dom_prob": 0.9064
+        },
+        {
+          "date": "2026-02-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-23",
+          "count": 2,
+          "mean_dom_prob": 0.8704
+        },
+        {
+          "date": "2026-02-24",
+          "count": 6,
+          "mean_dom_prob": 0.728
+        },
+        {
+          "date": "2026-02-25",
+          "count": 2,
+          "mean_dom_prob": 0.6754
+        },
+        {
+          "date": "2026-02-26",
+          "count": 5,
+          "mean_dom_prob": 0.8316
+        },
+        {
+          "date": "2026-02-27",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-28",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-02",
+          "count": 1,
+          "mean_dom_prob": 0.5836
+        },
+        {
+          "date": "2026-03-03",
+          "count": 2,
+          "mean_dom_prob": 0.9115
+        },
+        {
+          "date": "2026-03-04",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-05",
+          "count": 1,
+          "mean_dom_prob": 0.8122
+        },
+        {
+          "date": "2026-03-06",
+          "count": 2,
+          "mean_dom_prob": 0.4434
+        },
+        {
+          "date": "2026-03-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-09",
+          "count": 2,
+          "mean_dom_prob": 0.7277
+        },
+        {
+          "date": "2026-03-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "mean_dom_prob": 0.7549
+        },
+        {
+          "date": "2026-03-12",
+          "count": 5,
+          "mean_dom_prob": 0.7543
+        },
+        {
+          "date": "2026-03-13",
+          "count": 1,
+          "mean_dom_prob": 0.6162
+        },
+        {
+          "date": "2026-03-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-15",
+          "count": 1,
+          "mean_dom_prob": 0.5625
+        },
+        {
+          "date": "2026-03-16",
+          "count": 5,
+          "mean_dom_prob": 0.7487
+        },
+        {
+          "date": "2026-03-17",
+          "count": 2,
+          "mean_dom_prob": 0.8935
+        },
+        {
+          "date": "2026-03-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-20",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-22",
+          "count": 1,
+          "mean_dom_prob": 0.7206
+        },
+        {
+          "date": "2026-03-23",
+          "count": 1,
+          "mean_dom_prob": 0.5553
+        },
+        {
+          "date": "2026-03-24",
+          "count": 3,
+          "mean_dom_prob": 0.8735
+        },
+        {
+          "date": "2026-03-25",
+          "count": 2,
+          "mean_dom_prob": 0.7626
+        },
+        {
+          "date": "2026-03-26",
+          "count": 2,
+          "mean_dom_prob": 0.9518
+        },
+        {
+          "date": "2026-03-27",
+          "count": 2,
+          "mean_dom_prob": 0.791
+        },
+        {
+          "date": "2026-03-28",
+          "count": 1,
+          "mean_dom_prob": 0.653
+        },
+        {
+          "date": "2026-03-29",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-30",
+          "count": 1,
+          "mean_dom_prob": 0.7581
+        },
+        {
+          "date": "2026-03-31",
+          "count": 1,
+          "mean_dom_prob": 0.9441
+        },
+        {
+          "date": "2026-04-01",
+          "count": 2,
+          "mean_dom_prob": 0.7902
+        },
+        {
+          "date": "2026-04-02",
+          "count": 3,
+          "mean_dom_prob": 0.6231
+        },
+        {
+          "date": "2026-04-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-04",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-06",
+          "count": 1,
+          "mean_dom_prob": 0.7213
+        },
+        {
+          "date": "2026-04-07",
+          "count": 1,
+          "mean_dom_prob": 0.583
+        },
+        {
+          "date": "2026-04-08",
+          "count": 1,
+          "mean_dom_prob": 0.7898
+        },
+        {
+          "date": "2026-04-09",
+          "count": 3,
+          "mean_dom_prob": 0.7605
+        },
+        {
+          "date": "2026-04-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-11",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-12",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-13",
+          "count": 2,
+          "mean_dom_prob": 0.7768
+        },
+        {
+          "date": "2026-04-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-17",
+          "count": 3,
+          "mean_dom_prob": 0.9256
+        },
+        {
+          "date": "2026-04-18",
+          "count": 1,
+          "mean_dom_prob": 0.9354
+        },
+        {
+          "date": "2026-04-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-20",
+          "count": 1,
+          "mean_dom_prob": 0.7912
+        },
+        {
+          "date": "2026-04-21",
+          "count": 1,
+          "mean_dom_prob": 0.638
+        },
+        {
+          "date": "2026-04-22",
+          "count": 1,
+          "mean_dom_prob": 0.722
+        },
+        {
+          "date": "2026-04-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-24",
+          "count": 7,
+          "mean_dom_prob": 0.8024
+        },
+        {
+          "date": "2026-04-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-27",
+          "count": 4,
+          "mean_dom_prob": 0.6353
+        },
+        {
+          "date": "2026-04-28",
+          "count": 7,
+          "mean_dom_prob": 0.7727
+        },
+        {
+          "date": "2026-04-29",
+          "count": 17,
+          "mean_dom_prob": 0.7679
+        },
+        {
+          "date": "2026-04-30",
+          "count": 8,
+          "mean_dom_prob": 0.7653
+        },
+        {
+          "date": "2026-05-01",
+          "count": 4,
+          "mean_dom_prob": 0.7677
+        },
+        {
+          "date": "2026-05-02",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-04",
+          "count": 6,
+          "mean_dom_prob": 0.7325
+        },
+        {
+          "date": "2026-05-05",
+          "count": 3,
+          "mean_dom_prob": 0.6667
+        },
+        {
+          "date": "2026-05-06",
+          "count": 2,
+          "mean_dom_prob": 0.7563
+        },
+        {
+          "date": "2026-05-07",
+          "count": 4,
+          "mean_dom_prob": 0.7473
+        },
+        {
+          "date": "2026-05-08",
+          "count": 5,
+          "mean_dom_prob": 0.7515
+        },
+        {
+          "date": "2026-05-09",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-11",
+          "count": 2,
+          "mean_dom_prob": 0.7605
+        },
+        {
+          "date": "2026-05-12",
+          "count": 4,
+          "mean_dom_prob": 0.6931
+        },
+        {
+          "date": "2026-05-13",
+          "count": 3,
+          "mean_dom_prob": 0.7581
+        },
+        {
+          "date": "2026-05-14",
+          "count": 2,
+          "mean_dom_prob": 0.809
+        },
+        {
+          "date": "2026-05-15",
+          "count": 3,
+          "mean_dom_prob": 0.8836
+        },
+        {
+          "date": "2026-05-16",
+          "count": 2,
+          "mean_dom_prob": 0.4899
+        },
+        {
+          "date": "2026-05-17",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-18",
+          "count": 2,
+          "mean_dom_prob": 0.7906
+        },
+        {
+          "date": "2026-05-19",
+          "count": 7,
+          "mean_dom_prob": 0.783
+        },
+        {
+          "date": "2026-05-20",
+          "count": 2,
+          "mean_dom_prob": 0.6083
+        },
+        {
+          "date": "2026-05-21",
+          "count": 1,
+          "mean_dom_prob": 0.9557
+        },
+        {
+          "date": "2026-05-22",
+          "count": 3,
+          "mean_dom_prob": 0.6546
+        },
+        {
+          "date": "2026-05-23",
+          "count": 1,
+          "mean_dom_prob": 0.7212
+        },
+        {
+          "date": "2026-05-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-25",
+          "count": 1,
+          "mean_dom_prob": 0.9064
+        },
+        {
+          "date": "2026-05-26",
+          "count": 3,
+          "mean_dom_prob": 0.6825
+        },
+        {
+          "date": "2026-05-27",
+          "count": 2,
+          "mean_dom_prob": 0.7077
+        },
+        {
+          "date": "2026-05-28",
+          "count": 1,
+          "mean_dom_prob": 0.9353
+        }
+      ],
+      "weekly": [
+        {
+          "week_start": "2026-02-09",
+          "count": 15,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-16",
+          "count": 12,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-23",
+          "count": 11,
+          "top_emotion": "emotion_amusement",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-02",
+          "count": 14,
+          "top_emotion": "emotion_approval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-09",
+          "count": 7,
+          "top_emotion": "emotion_disapproval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-16",
+          "count": 18,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-23",
+          "count": 4,
+          "top_emotion": "emotion_amusement",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-30",
+          "count": 11,
+          "top_emotion": "emotion_anger",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-06",
+          "count": 7,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-13",
+          "count": 7,
+          "top_emotion": "emotion_approval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-20",
+          "count": 5,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-27",
+          "count": 13,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-04",
+          "count": 42,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-11",
+          "count": 16,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-18",
+          "count": 16,
+          "top_emotion": "emotion_confusion",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-25",
+          "count": 15,
+          "top_emotion": "emotion_excitement",
+          "is_partial": true
+        },
+        {
+          "week_start": "2026-06-01",
+          "count": 6,
+          "top_emotion": "emotion_approval",
+          "is_partial": true
+        }
+      ],
+      "wow": {
+        "this_week_start": "2026-05-18",
+        "prev_week_start": "2026-05-11",
+        "this_count": 16,
+        "prev_count": 16,
+        "pct_change": 0.0,
+        "dominant_emotion_now": "emotion_confusion",
+        "dominant_emotion_prev": "emotion_admiration",
+        "emotion_shifted": true
+      },
+      "spikes": [
+        {
+          "date": "2026-02-24",
+          "count": 6,
+          "baseline_mean": 1.571,
+          "baseline_std": 1.591,
+          "z": 2.784
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "baseline_mean": 1.143,
+          "baseline_std": 0.833,
+          "z": 5.831
+        },
+        {
+          "date": "2026-04-24",
+          "count": 7,
+          "baseline_mean": 0.857,
+          "baseline_std": 0.99,
+          "z": 6.207
+        },
+        {
+          "date": "2026-04-29",
+          "count": 17,
+          "baseline_mean": 3.0,
+          "baseline_std": 2.777,
+          "z": 5.041
+        },
+        {
+          "date": "2026-05-19",
+          "count": 7,
+          "baseline_mean": 3.0,
+          "baseline_std": 1.069,
+          "z": 3.742
+        }
+      ],
+      "quotes": [
+        {
+          "post_idx": "chipotle_00438",
+          "date": "2026-04-24",
+          "bucket": "positive",
+          "sentiment_label": null,
+          "dom_prob": 0.9839,
+          "text": "Fought it out in $INTC all day, ended up adding 1% to my accounnt, flat in my trading account. All in short $CMG heading into the weekend. I dont feel like there will be many getting long before earnings next week, I am looking for a selloff early in the week and if the stock do\u2026"
+        },
+        {
+          "post_idx": "chipotle_00602",
+          "date": "2026-03-26",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.9736,
+          "text": "$CMG Fake Mexican food. Remember all those disease outbreaks? I once found a moving maggot in my food. I ate their alot , every week, because it was convenient to work. That day, ive eaten five times, that was seven years ago. And only because i needed food. No, im not short, so\u2026"
+        },
+        {
+          "post_idx": "chipotle_00381",
+          "date": "2026-04-29",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.8953,
+          "text": "$CMG puts or calls? What\u2019s the sentiment for earnings. I think we drop. Let me your predictions please"
+        },
+        {
+          "post_idx": "chipotle_00518",
+          "date": "2026-04-09",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9778,
+          "text": "What's up with $CMG climbing over 4% in the last five sessions without any fresh news The options flow is leaning heavily on short-dated, near-the-money puts This feels more like hedging into strength rather than a big bullish play Saw a 38,000-contract 4/10 $33 put block at the\u2026"
+        },
+        {
+          "post_idx": "chipotle_00481",
+          "date": "2026-04-17",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9737,
+          "text": "Today we reveal a secret to uncovering great investing opportunities: Analyze a past great winner & search for investing opportunities now that exhibit the same characteristics In this video, we break down the Chipotle [ $CMG] setup that led to a 4.6X move in 4 months [$1.90 to\u2026"
+        }
+      ],
+      "label": "CMG Earnings Week Sentiment",
+      "description": "Investors are expressing optimism about Chipotle's (CMG) upcoming earnings, with a focus on potential price movements and sentiment heading into the week."
+    },
+    {
+      "topic_id": 2,
+      "top_words": [
+        [
+          "day",
+          0.0346
+        ],
+        [
+          "price",
+          0.0282
+        ],
+        [
+          "red",
+          0.0274
+        ],
+        [
+          "green",
+          0.0206
+        ],
+        [
+          "down",
+          0.0157
+        ],
+        [
+          "every",
+          0.0157
+        ],
+        [
+          "ceo",
+          0.0153
+        ],
+        [
+          "buy",
+          0.0148
+        ],
+        [
+          "back",
+          0.0144
+        ],
+        [
+          "target",
+          0.0141
+        ]
+      ],
+      "volume": 218,
+      "share_kept": 0.1887,
+      "mean_dom_prob": 0.7597,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.011816855852555916,
+          "emotion_amusement": 0.008456401938188493,
+          "emotion_anger": 0.031688628448109435,
+          "emotion_annoyance": 0.07121737670856076,
+          "emotion_approval": 0.01850317084233511,
+          "emotion_caring": 0.006987844076670134,
+          "emotion_confusion": 0.027462231077935603,
+          "emotion_curiosity": 0.053939493522513725,
+          "emotion_desire": 0.004225174660898745,
+          "emotion_disappointment": 0.038938641322765186,
+          "emotion_disapproval": 0.02045318125091571,
+          "emotion_disgust": 0.01400673840376302,
+          "emotion_embarrassment": 0.004257486717857409,
+          "emotion_excitement": 0.007265798106460728,
+          "emotion_fear": 0.003514966228044163,
+          "emotion_gratitude": 0.0030392062453104903,
+          "emotion_grief": 0.00023143107835588356,
+          "emotion_joy": 0.00191905791299799,
+          "emotion_love": 0.010406635908348044,
+          "emotion_nervousness": 0.0008818961896606105,
+          "emotion_neutral": 0.6289087944549344,
+          "emotion_optimism": 0.012395717835388734,
+          "emotion_pride": 0.00025069468560077855,
+          "emotion_realization": 0.0074316706506130994,
+          "emotion_relief": 0.000466621426852948,
+          "emotion_remorse": 0.000617465300796846,
+          "emotion_sadness": 0.004963033749582874,
+          "emotion_surprise": 0.005753787405074786
+        },
+        "top_non_neutral": [
+          [
+            "emotion_annoyance",
+            0.07121737670856076
+          ],
+          [
+            "emotion_curiosity",
+            0.053939493522513725
+          ],
+          [
+            "emotion_disappointment",
+            0.038938641322765186
+          ],
+          [
+            "emotion_anger",
+            0.031688628448109435
+          ],
+          [
+            "emotion_confusion",
+            0.027462231077935603
+          ]
+        ],
+        "neutral_share": 0.6289087944549344,
+        "dominant_non_neutral": "emotion_annoyance",
+        "valence": {
+          "positive": 0.07452016075403922,
+          "negative": 0.19077084539841194,
+          "ambiguous": 0.10580019939261442
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 218,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 44,
+        "bearish": 14,
+        "unlabeled": 160,
+        "labeled_bullish_share": 0.7586
+      },
+      "daily": [
+        {
+          "date": "2026-02-04",
+          "count": 4,
+          "mean_dom_prob": 0.7254
+        },
+        {
+          "date": "2026-02-05",
+          "count": 5,
+          "mean_dom_prob": 0.7634
+        },
+        {
+          "date": "2026-02-06",
+          "count": 4,
+          "mean_dom_prob": 0.8174
+        },
+        {
+          "date": "2026-02-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-09",
+          "count": 4,
+          "mean_dom_prob": 0.7673
+        },
+        {
+          "date": "2026-02-10",
+          "count": 4,
+          "mean_dom_prob": 0.7737
+        },
+        {
+          "date": "2026-02-11",
+          "count": 3,
+          "mean_dom_prob": 0.8729
+        },
+        {
+          "date": "2026-02-12",
+          "count": 6,
+          "mean_dom_prob": 0.6615
+        },
+        {
+          "date": "2026-02-13",
+          "count": 3,
+          "mean_dom_prob": 0.6638
+        },
+        {
+          "date": "2026-02-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-17",
+          "count": 7,
+          "mean_dom_prob": 0.8332
+        },
+        {
+          "date": "2026-02-18",
+          "count": 7,
+          "mean_dom_prob": 0.8125
+        },
+        {
+          "date": "2026-02-19",
+          "count": 6,
+          "mean_dom_prob": 0.7744
+        },
+        {
+          "date": "2026-02-20",
+          "count": 4,
+          "mean_dom_prob": 0.7084
+        },
+        {
+          "date": "2026-02-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-22",
+          "count": 1,
+          "mean_dom_prob": 0.9299
+        },
+        {
+          "date": "2026-02-23",
+          "count": 1,
+          "mean_dom_prob": 0.8318
+        },
+        {
+          "date": "2026-02-24",
+          "count": 6,
+          "mean_dom_prob": 0.8249
+        },
+        {
+          "date": "2026-02-25",
+          "count": 1,
+          "mean_dom_prob": 0.7558
+        },
+        {
+          "date": "2026-02-26",
+          "count": 2,
+          "mean_dom_prob": 0.8432
+        },
+        {
+          "date": "2026-02-27",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-28",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-02",
+          "count": 2,
+          "mean_dom_prob": 0.8835
+        },
+        {
+          "date": "2026-03-03",
+          "count": 2,
+          "mean_dom_prob": 0.8332
+        },
+        {
+          "date": "2026-03-04",
+          "count": 3,
+          "mean_dom_prob": 0.7606
+        },
+        {
+          "date": "2026-03-05",
+          "count": 2,
+          "mean_dom_prob": 0.7906
+        },
+        {
+          "date": "2026-03-06",
+          "count": 2,
+          "mean_dom_prob": 0.7205
+        },
+        {
+          "date": "2026-03-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1,
+          "mean_dom_prob": 0.9302
+        },
+        {
+          "date": "2026-03-10",
+          "count": 2,
+          "mean_dom_prob": 0.8141
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "mean_dom_prob": 0.7069
+        },
+        {
+          "date": "2026-03-12",
+          "count": 6,
+          "mean_dom_prob": 0.7178
+        },
+        {
+          "date": "2026-03-13",
+          "count": 4,
+          "mean_dom_prob": 0.8024
+        },
+        {
+          "date": "2026-03-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-16",
+          "count": 1,
+          "mean_dom_prob": 0.8323
+        },
+        {
+          "date": "2026-03-17",
+          "count": 2,
+          "mean_dom_prob": 0.9029
+        },
+        {
+          "date": "2026-03-18",
+          "count": 2,
+          "mean_dom_prob": 0.8701
+        },
+        {
+          "date": "2026-03-19",
+          "count": 3,
+          "mean_dom_prob": 0.6982
+        },
+        {
+          "date": "2026-03-20",
+          "count": 5,
+          "mean_dom_prob": 0.7895
+        },
+        {
+          "date": "2026-03-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-23",
+          "count": 4,
+          "mean_dom_prob": 0.7814
+        },
+        {
+          "date": "2026-03-24",
+          "count": 1,
+          "mean_dom_prob": 0.8318
+        },
+        {
+          "date": "2026-03-25",
+          "count": 5,
+          "mean_dom_prob": 0.5577
+        },
+        {
+          "date": "2026-03-26",
+          "count": 1,
+          "mean_dom_prob": 0.8807
+        },
+        {
+          "date": "2026-03-27",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-28",
+          "count": 1,
+          "mean_dom_prob": 0.9164
+        },
+        {
+          "date": "2026-03-29",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-30",
+          "count": 2,
+          "mean_dom_prob": 0.676
+        },
+        {
+          "date": "2026-03-31",
+          "count": 2,
+          "mean_dom_prob": 0.6332
+        },
+        {
+          "date": "2026-04-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-02",
+          "count": 1,
+          "mean_dom_prob": 0.8599
+        },
+        {
+          "date": "2026-04-03",
+          "count": 1,
+          "mean_dom_prob": 0.9164
+        },
+        {
+          "date": "2026-04-04",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-06",
+          "count": 3,
+          "mean_dom_prob": 0.719
+        },
+        {
+          "date": "2026-04-07",
+          "count": 2,
+          "mean_dom_prob": 0.7316
+        },
+        {
+          "date": "2026-04-08",
+          "count": 1,
+          "mean_dom_prob": 0.4802
+        },
+        {
+          "date": "2026-04-09",
+          "count": 2,
+          "mean_dom_prob": 0.6861
+        },
+        {
+          "date": "2026-04-10",
+          "count": 1,
+          "mean_dom_prob": 0.7899
+        },
+        {
+          "date": "2026-04-11",
+          "count": 1,
+          "mean_dom_prob": 0.7902
+        },
+        {
+          "date": "2026-04-12",
+          "count": 1,
+          "mean_dom_prob": 0.4681
+        },
+        {
+          "date": "2026-04-13",
+          "count": 1,
+          "mean_dom_prob": 0.8599
+        },
+        {
+          "date": "2026-04-14",
+          "count": 1,
+          "mean_dom_prob": 0.5734
+        },
+        {
+          "date": "2026-04-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-16",
+          "count": 2,
+          "mean_dom_prob": 0.6806
+        },
+        {
+          "date": "2026-04-17",
+          "count": 1,
+          "mean_dom_prob": 0.7909
+        },
+        {
+          "date": "2026-04-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-20",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-21",
+          "count": 3,
+          "mean_dom_prob": 0.7346
+        },
+        {
+          "date": "2026-04-22",
+          "count": 6,
+          "mean_dom_prob": 0.6732
+        },
+        {
+          "date": "2026-04-23",
+          "count": 3,
+          "mean_dom_prob": 0.7806
+        },
+        {
+          "date": "2026-04-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-27",
+          "count": 2,
+          "mean_dom_prob": 0.791
+        },
+        {
+          "date": "2026-04-28",
+          "count": 3,
+          "mean_dom_prob": 0.6267
+        },
+        {
+          "date": "2026-04-29",
+          "count": 9,
+          "mean_dom_prob": 0.7711
+        },
+        {
+          "date": "2026-04-30",
+          "count": 5,
+          "mean_dom_prob": 0.8778
+        },
+        {
+          "date": "2026-05-01",
+          "count": 6,
+          "mean_dom_prob": 0.656
+        },
+        {
+          "date": "2026-05-02",
+          "count": 1,
+          "mean_dom_prob": 0.8319
+        },
+        {
+          "date": "2026-05-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-04",
+          "count": 4,
+          "mean_dom_prob": 0.7239
+        },
+        {
+          "date": "2026-05-05",
+          "count": 5,
+          "mean_dom_prob": 0.8542
+        },
+        {
+          "date": "2026-05-06",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-07",
+          "count": 3,
+          "mean_dom_prob": 0.8288
+        },
+        {
+          "date": "2026-05-08",
+          "count": 2,
+          "mean_dom_prob": 0.7559
+        },
+        {
+          "date": "2026-05-09",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-11",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-12",
+          "count": 2,
+          "mean_dom_prob": 0.7768
+        },
+        {
+          "date": "2026-05-13",
+          "count": 2,
+          "mean_dom_prob": 0.7087
+        },
+        {
+          "date": "2026-05-14",
+          "count": 2,
+          "mean_dom_prob": 0.6545
+        },
+        {
+          "date": "2026-05-15",
+          "count": 2,
+          "mean_dom_prob": 0.7387
+        },
+        {
+          "date": "2026-05-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-17",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-19",
+          "count": 2,
+          "mean_dom_prob": 0.87
+        },
+        {
+          "date": "2026-05-20",
+          "count": 2,
+          "mean_dom_prob": 0.79
+        },
+        {
+          "date": "2026-05-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-22",
+          "count": 3,
+          "mean_dom_prob": 0.7403
+        },
+        {
+          "date": "2026-05-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-26",
+          "count": 4,
+          "mean_dom_prob": 0.8052
+        },
+        {
+          "date": "2026-05-27",
+          "count": 1,
+          "mean_dom_prob": 0.4756
+        },
+        {
+          "date": "2026-05-28",
+          "count": 1,
+          "mean_dom_prob": 0.916
+        }
+      ],
+      "weekly": [
+        {
+          "week_start": "2026-02-09",
+          "count": 17,
+          "top_emotion": "emotion_confusion",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-16",
+          "count": 16,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-23",
+          "count": 26,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-02",
+          "count": 11,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-09",
+          "count": 10,
+          "top_emotion": "emotion_confusion",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-16",
+          "count": 19,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-23",
+          "count": 16,
+          "top_emotion": "emotion_disgust",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-30",
+          "count": 10,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-06",
+          "count": 7,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-13",
+          "count": 9,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-20",
+          "count": 4,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-27",
+          "count": 14,
+          "top_emotion": "emotion_approval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-04",
+          "count": 28,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-11",
+          "count": 10,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-18",
+          "count": 8,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-25",
+          "count": 7,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": true
+        },
+        {
+          "week_start": "2026-06-01",
+          "count": 6,
+          "top_emotion": "emotion_anger",
+          "is_partial": true
+        }
+      ],
+      "wow": {
+        "this_week_start": "2026-05-18",
+        "prev_week_start": "2026-05-11",
+        "this_count": 8,
+        "prev_count": 10,
+        "pct_change": -0.2,
+        "dominant_emotion_now": "emotion_annoyance",
+        "dominant_emotion_prev": "emotion_curiosity",
+        "emotion_shifted": true
+      },
+      "spikes": [
+        {
+          "date": "2026-02-12",
+          "count": 6,
+          "baseline_mean": 4.0,
+          "baseline_std": 0.577,
+          "z": 3.464
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "baseline_mean": 2.0,
+          "baseline_std": 0.535,
+          "z": 7.483
+        },
+        {
+          "date": "2026-04-06",
+          "count": 3,
+          "baseline_mean": 1.0,
+          "baseline_std": 0.756,
+          "z": 2.646
+        },
+        {
+          "date": "2026-04-21",
+          "count": 3,
+          "baseline_mean": 0.857,
+          "baseline_std": 0.639,
+          "z": 3.354
+        },
+        {
+          "date": "2026-04-22",
+          "count": 6,
+          "baseline_mean": 1.143,
+          "baseline_std": 0.99,
+          "z": 4.907
+        },
+        {
+          "date": "2026-04-29",
+          "count": 9,
+          "baseline_mean": 2.429,
+          "baseline_std": 1.917,
+          "z": 3.429
+        }
+      ],
+      "quotes": [
+        {
+          "post_idx": "chipotle_01097",
+          "date": "2026-02-06",
+          "bucket": "positive",
+          "sentiment_label": null,
+          "dom_prob": 0.9579,
+          "text": "$CMG congrats bulls! You managed to lose more than half of the gains when the entire market kept rallying during the same time. Another massive underperformance day on the upside but don\u2019t worry, will go down 5x more on the downside"
+        },
+        {
+          "post_idx": "chipotle_00977",
+          "date": "2026-02-17",
+          "bucket": "negative",
+          "sentiment_label": "Bearish",
+          "dom_prob": 0.9532,
+          "text": "$CMG I don't usually pray on the downfall of anything or anyone but this company sucks. Overpriced slop bowls, price increases on already ridiculous ingredients margins, zero concern for the average consumer. CEO is a dillhole"
+        },
+        {
+          "post_idx": "chipotle_00233",
+          "date": "2026-05-05",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9503,
+          "text": "$CMG why this is still going down? Earning beat, every analysts upgraded to buy and increased stock price but nothing is stopping this to fall everyday. Which MF is shorting? Their management needs to do something."
+        },
+        {
+          "post_idx": "chipotle_00673",
+          "date": "2026-03-17",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9737,
+          "text": ". \ud83d\udd0d \ud835\uddd5\ud835\uddf2\ud835\ude01\ud835\ude01\ud835\uddf2\ud835\uddff \ud835\uddd8\ud835\uddfb\ud835\ude01\ud835\uddff\ud835\ude06 \ud83d\udd0e Top stocks trading below the Average Buy Price of 5-star Hedge Fund of Stanley Druckenmiller, Duquesne. $Z - 37.7% cheaper (Avg buy price ~$72.64) $RH - 28.7% cheaper (Avg buy price ~$191.16) $CMG - 21.3% cheaper (Avg buy price ~$43.79) $AAL - 18.3% cheaper (A\u2026"
+        },
+        {
+          "post_idx": "chipotle_01151",
+          "date": "2026-02-04",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9691,
+          "text": "$CMG nothing going on Barclays cuts target price to $40 from $44 BMO cuts target price to $52 from $55 BofA Global Research cuts price objective to $53 from $55 Deutsche Bank cuts target price to $48 from $49 Mizuho cuts target price to $37 from $38 Morgan Stanley cuts target pr\u2026"
+        }
+      ],
+      "label": "CMG stock price decline annoyance",
+      "description": "Investors express annoyance over CMG's continued stock price decline despite positive earnings and analyst upgrades. They criticize the company's pricing and management's perceived lack of action."
+    },
+    {
+      "topic_id": 0,
+      "top_words": [
+        [
+          "than",
+          0.0135
+        ],
+        [
+          "now",
+          0.0129
+        ],
+        [
+          "new",
+          0.0124
+        ],
+        [
+          "only",
+          0.0113
+        ],
+        [
+          "going",
+          0.0112
+        ],
+        [
+          "around",
+          0.0094
+        ],
+        [
+          "down",
+          0.0091
+        ],
+        [
+          "turd",
+          0.009
+        ],
+        [
+          "here",
+          0.0089
+        ],
+        [
+          "times",
+          0.0085
+        ]
+      ],
+      "volume": 199,
+      "share_kept": 0.1723,
+      "mean_dom_prob": 0.7583,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.02128957757678688,
+          "emotion_amusement": 0.01376939255969849,
+          "emotion_anger": 0.018759801516148374,
+          "emotion_annoyance": 0.05126098004883783,
+          "emotion_approval": 0.027350804859552116,
+          "emotion_caring": 0.003926070876306398,
+          "emotion_confusion": 0.014943515989835551,
+          "emotion_curiosity": 0.035946659365645055,
+          "emotion_desire": 0.010005886806426842,
+          "emotion_disappointment": 0.03555492334731176,
+          "emotion_disapproval": 0.022000318648256634,
+          "emotion_disgust": 0.008009121692264462,
+          "emotion_embarrassment": 0.0016198847805976484,
+          "emotion_excitement": 0.010573663681846953,
+          "emotion_fear": 0.0011953097486140313,
+          "emotion_gratitude": 0.003972309924454762,
+          "emotion_grief": 0.00023230879862674446,
+          "emotion_joy": 0.009051417534089742,
+          "emotion_love": 0.005412034077667696,
+          "emotion_nervousness": 0.00048663045509965744,
+          "emotion_neutral": 0.6300907346346775,
+          "emotion_optimism": 0.03705422258033879,
+          "emotion_pride": 0.0004274407965483301,
+          "emotion_realization": 0.008191992786372806,
+          "emotion_relief": 0.0006001887985746912,
+          "emotion_remorse": 0.0033843491066931097,
+          "emotion_sadness": 0.005036836988478785,
+          "emotion_surprise": 0.019853623446719672
+        },
+        "top_non_neutral": [
+          [
+            "emotion_annoyance",
+            0.05126098004883783
+          ],
+          [
+            "emotion_optimism",
+            0.03705422258033879
+          ],
+          [
+            "emotion_curiosity",
+            0.035946659365645055
+          ],
+          [
+            "emotion_disappointment",
+            0.03555492334731176
+          ],
+          [
+            "emotion_approval",
+            0.027350804859552116
+          ]
+        ],
+        "neutral_share": 0.6300907346346775,
+        "dominant_non_neutral": "emotion_annoyance",
+        "valence": {
+          "positive": 0.12950105238955842,
+          "negative": 0.14754046513092905,
+          "ambiguous": 0.09286774784483506
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 199,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 54,
+        "bearish": 22,
+        "unlabeled": 123,
+        "labeled_bullish_share": 0.7105
+      },
+      "daily": [
+        {
+          "date": "2026-02-04",
+          "count": 8,
+          "mean_dom_prob": 0.7729
+        },
+        {
+          "date": "2026-02-05",
+          "count": 7,
+          "mean_dom_prob": 0.7902
+        },
+        {
+          "date": "2026-02-06",
+          "count": 4,
+          "mean_dom_prob": 0.8104
+        },
+        {
+          "date": "2026-02-07",
+          "count": 1,
+          "mean_dom_prob": 0.4278
+        },
+        {
+          "date": "2026-02-08",
+          "count": 2,
+          "mean_dom_prob": 0.7031
+        },
+        {
+          "date": "2026-02-09",
+          "count": 5,
+          "mean_dom_prob": 0.8194
+        },
+        {
+          "date": "2026-02-10",
+          "count": 4,
+          "mean_dom_prob": 0.7134
+        },
+        {
+          "date": "2026-02-11",
+          "count": 3,
+          "mean_dom_prob": 0.8127
+        },
+        {
+          "date": "2026-02-12",
+          "count": 3,
+          "mean_dom_prob": 0.6135
+        },
+        {
+          "date": "2026-02-13",
+          "count": 3,
+          "mean_dom_prob": 0.5866
+        },
+        {
+          "date": "2026-02-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-17",
+          "count": 5,
+          "mean_dom_prob": 0.6556
+        },
+        {
+          "date": "2026-02-18",
+          "count": 2,
+          "mean_dom_prob": 0.5246
+        },
+        {
+          "date": "2026-02-19",
+          "count": 3,
+          "mean_dom_prob": 0.872
+        },
+        {
+          "date": "2026-02-20",
+          "count": 4,
+          "mean_dom_prob": 0.7672
+        },
+        {
+          "date": "2026-02-21",
+          "count": 2,
+          "mean_dom_prob": 0.7871
+        },
+        {
+          "date": "2026-02-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-24",
+          "count": 3,
+          "mean_dom_prob": 0.7572
+        },
+        {
+          "date": "2026-02-25",
+          "count": 1,
+          "mean_dom_prob": 0.7216
+        },
+        {
+          "date": "2026-02-26",
+          "count": 1,
+          "mean_dom_prob": 0.7898
+        },
+        {
+          "date": "2026-02-27",
+          "count": 2,
+          "mean_dom_prob": 0.8355
+        },
+        {
+          "date": "2026-02-28",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-02",
+          "count": 1,
+          "mean_dom_prob": 0.6147
+        },
+        {
+          "date": "2026-03-03",
+          "count": 2,
+          "mean_dom_prob": 0.881
+        },
+        {
+          "date": "2026-03-04",
+          "count": 4,
+          "mean_dom_prob": 0.7845
+        },
+        {
+          "date": "2026-03-05",
+          "count": 1,
+          "mean_dom_prob": 0.5865
+        },
+        {
+          "date": "2026-03-06",
+          "count": 5,
+          "mean_dom_prob": 0.8584
+        },
+        {
+          "date": "2026-03-07",
+          "count": 1,
+          "mean_dom_prob": 0.8953
+        },
+        {
+          "date": "2026-03-08",
+          "count": 1,
+          "mean_dom_prob": 0.5827
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1,
+          "mean_dom_prob": 0.9651
+        },
+        {
+          "date": "2026-03-10",
+          "count": 2,
+          "mean_dom_prob": 0.9141
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "mean_dom_prob": 0.7338
+        },
+        {
+          "date": "2026-03-12",
+          "count": 2,
+          "mean_dom_prob": 0.7905
+        },
+        {
+          "date": "2026-03-13",
+          "count": 4,
+          "mean_dom_prob": 0.606
+        },
+        {
+          "date": "2026-03-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-16",
+          "count": 1,
+          "mean_dom_prob": 0.5559
+        },
+        {
+          "date": "2026-03-17",
+          "count": 1,
+          "mean_dom_prob": 0.7218
+        },
+        {
+          "date": "2026-03-18",
+          "count": 1,
+          "mean_dom_prob": 0.7218
+        },
+        {
+          "date": "2026-03-19",
+          "count": 5,
+          "mean_dom_prob": 0.7112
+        },
+        {
+          "date": "2026-03-20",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-23",
+          "count": 2,
+          "mean_dom_prob": 0.8351
+        },
+        {
+          "date": "2026-03-24",
+          "count": 3,
+          "mean_dom_prob": 0.8178
+        },
+        {
+          "date": "2026-03-25",
+          "count": 1,
+          "mean_dom_prob": 0.8952
+        },
+        {
+          "date": "2026-03-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-27",
+          "count": 1,
+          "mean_dom_prob": 0.9664
+        },
+        {
+          "date": "2026-03-28",
+          "count": 1,
+          "mean_dom_prob": 0.4938
+        },
+        {
+          "date": "2026-03-29",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-30",
+          "count": 2,
+          "mean_dom_prob": 0.7411
+        },
+        {
+          "date": "2026-03-31",
+          "count": 3,
+          "mean_dom_prob": 0.7689
+        },
+        {
+          "date": "2026-04-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-02",
+          "count": 2,
+          "mean_dom_prob": 0.6965
+        },
+        {
+          "date": "2026-04-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-04",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-06",
+          "count": 1,
+          "mean_dom_prob": 0.9533
+        },
+        {
+          "date": "2026-04-07",
+          "count": 1,
+          "mean_dom_prob": 0.907
+        },
+        {
+          "date": "2026-04-08",
+          "count": 2,
+          "mean_dom_prob": 0.8399
+        },
+        {
+          "date": "2026-04-09",
+          "count": 1,
+          "mean_dom_prob": 0.6364
+        },
+        {
+          "date": "2026-04-10",
+          "count": 2,
+          "mean_dom_prob": 0.7462
+        },
+        {
+          "date": "2026-04-11",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-12",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-13",
+          "count": 4,
+          "mean_dom_prob": 0.7725
+        },
+        {
+          "date": "2026-04-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-16",
+          "count": 3,
+          "mean_dom_prob": 0.8016
+        },
+        {
+          "date": "2026-04-17",
+          "count": 1,
+          "mean_dom_prob": 0.8801
+        },
+        {
+          "date": "2026-04-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-20",
+          "count": 1,
+          "mean_dom_prob": 0.895
+        },
+        {
+          "date": "2026-04-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-22",
+          "count": 1,
+          "mean_dom_prob": 0.7194
+        },
+        {
+          "date": "2026-04-23",
+          "count": 2,
+          "mean_dom_prob": 0.7117
+        },
+        {
+          "date": "2026-04-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-25",
+          "count": 1,
+          "mean_dom_prob": 0.9237
+        },
+        {
+          "date": "2026-04-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-27",
+          "count": 2,
+          "mean_dom_prob": 0.6605
+        },
+        {
+          "date": "2026-04-28",
+          "count": 3,
+          "mean_dom_prob": 0.8486
+        },
+        {
+          "date": "2026-04-29",
+          "count": 8,
+          "mean_dom_prob": 0.7259
+        },
+        {
+          "date": "2026-04-30",
+          "count": 1,
+          "mean_dom_prob": 0.7983
+        },
+        {
+          "date": "2026-05-01",
+          "count": 3,
+          "mean_dom_prob": 0.6105
+        },
+        {
+          "date": "2026-05-02",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-03",
+          "count": 1,
+          "mean_dom_prob": 0.97
+        },
+        {
+          "date": "2026-05-04",
+          "count": 3,
+          "mean_dom_prob": 0.8394
+        },
+        {
+          "date": "2026-05-05",
+          "count": 3,
+          "mean_dom_prob": 0.6796
+        },
+        {
+          "date": "2026-05-06",
+          "count": 3,
+          "mean_dom_prob": 0.8143
+        },
+        {
+          "date": "2026-05-07",
+          "count": 3,
+          "mean_dom_prob": 0.7077
+        },
+        {
+          "date": "2026-05-08",
+          "count": 8,
+          "mean_dom_prob": 0.8157
+        },
+        {
+          "date": "2026-05-09",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-11",
+          "count": 1,
+          "mean_dom_prob": 0.8604
+        },
+        {
+          "date": "2026-05-12",
+          "count": 2,
+          "mean_dom_prob": 0.659
+        },
+        {
+          "date": "2026-05-13",
+          "count": 1,
+          "mean_dom_prob": 0.79
+        },
+        {
+          "date": "2026-05-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-15",
+          "count": 3,
+          "mean_dom_prob": 0.7105
+        },
+        {
+          "date": "2026-05-16",
+          "count": 1,
+          "mean_dom_prob": 0.8952
+        },
+        {
+          "date": "2026-05-17",
+          "count": 1,
+          "mean_dom_prob": 0.8327
+        },
+        {
+          "date": "2026-05-18",
+          "count": 1,
+          "mean_dom_prob": 0.8953
+        },
+        {
+          "date": "2026-05-19",
+          "count": 3,
+          "mean_dom_prob": 0.7951
+        },
+        {
+          "date": "2026-05-20",
+          "count": 5,
+          "mean_dom_prob": 0.6669
+        },
+        {
+          "date": "2026-05-21",
+          "count": 2,
+          "mean_dom_prob": 0.9057
+        },
+        {
+          "date": "2026-05-22",
+          "count": 1,
+          "mean_dom_prob": 0.7205
+        },
+        {
+          "date": "2026-05-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-26",
+          "count": 2,
+          "mean_dom_prob": 0.7213
+        },
+        {
+          "date": "2026-05-27",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-28",
+          "count": 2,
+          "mean_dom_prob": 0.7212
+        }
+      ],
+      "weekly": [
+        {
+          "week_start": "2026-02-09",
+          "count": 27,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-16",
+          "count": 13,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-23",
+          "count": 16,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-02",
+          "count": 8,
+          "top_emotion": "emotion_surprise",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-09",
+          "count": 15,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-16",
+          "count": 15,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-23",
+          "count": 9,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-30",
+          "count": 8,
+          "top_emotion": "emotion_surprise",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-06",
+          "count": 6,
+          "top_emotion": "emotion_disapproval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-13",
+          "count": 10,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-20",
+          "count": 5,
+          "top_emotion": "emotion_desire",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-27",
+          "count": 6,
+          "top_emotion": "emotion_surprise",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-04",
+          "count": 19,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-11",
+          "count": 18,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-18",
+          "count": 9,
+          "top_emotion": "emotion_love",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-25",
+          "count": 11,
+          "top_emotion": "emotion_optimism",
+          "is_partial": true
+        },
+        {
+          "week_start": "2026-06-01",
+          "count": 4,
+          "top_emotion": "emotion_optimism",
+          "is_partial": true
+        }
+      ],
+      "wow": {
+        "this_week_start": "2026-05-18",
+        "prev_week_start": "2026-05-11",
+        "this_count": 9,
+        "prev_count": 18,
+        "pct_change": -0.5,
+        "dominant_emotion_now": "emotion_love",
+        "dominant_emotion_prev": "emotion_annoyance",
+        "emotion_shifted": true
+      },
+      "spikes": [
+        {
+          "date": "2026-03-04",
+          "count": 4,
+          "baseline_mean": 1.429,
+          "baseline_std": 0.904,
+          "z": 2.846
+        },
+        {
+          "date": "2026-03-06",
+          "count": 5,
+          "baseline_mean": 1.714,
+          "baseline_std": 1.03,
+          "z": 3.19
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "baseline_mean": 2.286,
+          "baseline_std": 1.485,
+          "z": 2.502
+        },
+        {
+          "date": "2026-04-13",
+          "count": 4,
+          "baseline_mean": 1.286,
+          "baseline_std": 0.7,
+          "z": 3.878
+        },
+        {
+          "date": "2026-04-28",
+          "count": 3,
+          "baseline_mean": 1.0,
+          "baseline_std": 0.756,
+          "z": 2.646
+        },
+        {
+          "date": "2026-04-29",
+          "count": 8,
+          "baseline_mean": 1.286,
+          "baseline_std": 1.03,
+          "z": 6.518
+        },
+        {
+          "date": "2026-05-20",
+          "count": 5,
+          "baseline_mean": 1.571,
+          "baseline_std": 1.05,
+          "z": 3.266
+        }
+      ],
+      "quotes": [
+        {
+          "post_idx": "chipotle_00509",
+          "date": "2026-04-13",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9759,
+          "text": "$RICK This is the game plan. 1. Sell off as much non performing RE as possible (pay down debt, Pay Adam loan, use cash left over for big buybacks) 2. Stabilize Bombshells turning it into a Bar that has food vs a restaurant (Eric is in this and trying to convert the other locatio\u2026"
+        },
+        {
+          "post_idx": "chipotle_00266",
+          "date": "2026-05-03",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.97,
+          "text": "Once i used to post challenges, profits, losses as is. Now ive stopped. A silent ego in me has been my fall. And the hurt of losing sometimes eats me so much. But then ive never let my persistence down. I kept trying to figure out how to be disciplined. Everyone should not only\u2026"
+        },
+        {
+          "post_idx": "chipotle_01124",
+          "date": "2026-02-05",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9163,
+          "text": "$CMG going lower as everything is recovering! How many times did this get rejected at 40 now?"
+        },
+        {
+          "post_idx": "chipotle_00191",
+          "date": "2026-05-08",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9752,
+          "text": "$CMG should had been a solid $50 as one of the most prominent places for casual eating. On one hand, portion control has discouraged patrons. With some exaggeration for illustration purposes\u2026paying for a burrito and getting a taco portion wrapped burrito. Chipotle needs to go ba\u2026"
+        },
+        {
+          "post_idx": "chipotle_00219",
+          "date": "2026-05-06",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.971,
+          "text": "$CMG is forming a textbook rounding bottom at key long-term support \u2014 this is exactly where a stock proves itself or folds. Price is bouncing off the $29.75 lows and stabilizing right where it needs to. How a stock holds this kind of support tells you everything about whether bu\u2026"
+        }
+      ],
+      "label": "CMG price action and sentiment",
+      "description": "Investors express annoyance with CMG's stock price, noting repeated rejections at $40. The dominant feeling shifted from annoyance to love week-over-week, despite a volume decrease."
+    },
+    {
+      "topic_id": 5,
+      "top_words": [
+        [
+          "quot",
+          0.0361
+        ],
+        [
+          "after",
+          0.0143
+        ],
+        [
+          "long",
+          0.012
+        ],
+        [
+          "price",
+          0.0116
+        ],
+        [
+          "earnings",
+          0.0113
+        ],
+        [
+          "out",
+          0.011
+        ],
+        [
+          "high",
+          0.0103
+        ],
+        [
+          "margin",
+          0.0092
+        ],
+        [
+          "term",
+          0.0086
+        ],
+        [
+          "here",
+          0.0085
+        ]
+      ],
+      "volume": 176,
+      "share_kept": 0.1524,
+      "mean_dom_prob": 0.7352,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.016683569876061028,
+          "emotion_amusement": 0.015273031481164873,
+          "emotion_anger": 0.01390538597853905,
+          "emotion_annoyance": 0.029309972876036348,
+          "emotion_approval": 0.02877884803987523,
+          "emotion_caring": 0.004367913318030576,
+          "emotion_confusion": 0.016003731208810816,
+          "emotion_curiosity": 0.0351932577292496,
+          "emotion_desire": 0.0049730865393735335,
+          "emotion_disappointment": 0.02741138600807206,
+          "emotion_disapproval": 0.024309249142525274,
+          "emotion_disgust": 0.005736438999098761,
+          "emotion_embarrassment": 0.001041335932762672,
+          "emotion_excitement": 0.007916778873451874,
+          "emotion_fear": 0.0014303456284205161,
+          "emotion_gratitude": 0.011355013122762133,
+          "emotion_grief": 0.00021419721710216888,
+          "emotion_joy": 0.0023652760100460976,
+          "emotion_love": 0.007043352181808676,
+          "emotion_nervousness": 0.0005162870502771139,
+          "emotion_neutral": 0.6971952297729691,
+          "emotion_optimism": 0.031597689927448304,
+          "emotion_pride": 0.0002571735936623387,
+          "emotion_realization": 0.005964984872213468,
+          "emotion_relief": 0.0004200090778331682,
+          "emotion_remorse": 0.0008647962104614434,
+          "emotion_sadness": 0.003942148497521412,
+          "emotion_surprise": 0.005929509850040885
+        },
+        "top_non_neutral": [
+          [
+            "emotion_curiosity",
+            0.0351932577292496
+          ],
+          [
+            "emotion_optimism",
+            0.031597689927448304
+          ],
+          [
+            "emotion_annoyance",
+            0.029309972876036348
+          ],
+          [
+            "emotion_approval",
+            0.02877884803987523
+          ],
+          [
+            "emotion_disappointment",
+            0.02741138600807206
+          ]
+        ],
+        "neutral_share": 0.6971952297729691,
+        "dominant_non_neutral": "emotion_curiosity",
+        "valence": {
+          "positive": 0.12169074218411373,
+          "negative": 0.10868154354081681,
+          "ambiguous": 0.07243248450210034
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 176,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 40,
+        "bearish": 27,
+        "unlabeled": 109,
+        "labeled_bullish_share": 0.597
+      },
+      "daily": [
+        {
+          "date": "2026-02-04",
+          "count": 8,
+          "mean_dom_prob": 0.6948
+        },
+        {
+          "date": "2026-02-05",
+          "count": 1,
+          "mean_dom_prob": 0.7206
+        },
+        {
+          "date": "2026-02-06",
+          "count": 1,
+          "mean_dom_prob": 0.8951
+        },
+        {
+          "date": "2026-02-07",
+          "count": 1,
+          "mean_dom_prob": 0.6349
+        },
+        {
+          "date": "2026-02-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-09",
+          "count": 2,
+          "mean_dom_prob": 0.8699
+        },
+        {
+          "date": "2026-02-10",
+          "count": 3,
+          "mean_dom_prob": 0.5279
+        },
+        {
+          "date": "2026-02-11",
+          "count": 7,
+          "mean_dom_prob": 0.7077
+        },
+        {
+          "date": "2026-02-12",
+          "count": 4,
+          "mean_dom_prob": 0.7094
+        },
+        {
+          "date": "2026-02-13",
+          "count": 3,
+          "mean_dom_prob": 0.716
+        },
+        {
+          "date": "2026-02-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-17",
+          "count": 1,
+          "mean_dom_prob": 0.5075
+        },
+        {
+          "date": "2026-02-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-19",
+          "count": 1,
+          "mean_dom_prob": 0.5811
+        },
+        {
+          "date": "2026-02-20",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-22",
+          "count": 1,
+          "mean_dom_prob": 0.9156
+        },
+        {
+          "date": "2026-02-23",
+          "count": 1,
+          "mean_dom_prob": 0.4792
+        },
+        {
+          "date": "2026-02-24",
+          "count": 1,
+          "mean_dom_prob": 0.8593
+        },
+        {
+          "date": "2026-02-25",
+          "count": 3,
+          "mean_dom_prob": 0.7267
+        },
+        {
+          "date": "2026-02-26",
+          "count": 4,
+          "mean_dom_prob": 0.6542
+        },
+        {
+          "date": "2026-02-27",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-28",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-02",
+          "count": 3,
+          "mean_dom_prob": 0.6677
+        },
+        {
+          "date": "2026-03-03",
+          "count": 1,
+          "mean_dom_prob": 0.5829
+        },
+        {
+          "date": "2026-03-04",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-06",
+          "count": 5,
+          "mean_dom_prob": 0.7109
+        },
+        {
+          "date": "2026-03-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-09",
+          "count": 3,
+          "mean_dom_prob": 0.6135
+        },
+        {
+          "date": "2026-03-10",
+          "count": 3,
+          "mean_dom_prob": 0.9378
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "mean_dom_prob": 0.81
+        },
+        {
+          "date": "2026-03-12",
+          "count": 3,
+          "mean_dom_prob": 0.5476
+        },
+        {
+          "date": "2026-03-13",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-16",
+          "count": 1,
+          "mean_dom_prob": 0.7213
+        },
+        {
+          "date": "2026-03-17",
+          "count": 1,
+          "mean_dom_prob": 0.7371
+        },
+        {
+          "date": "2026-03-18",
+          "count": 4,
+          "mean_dom_prob": 0.8214
+        },
+        {
+          "date": "2026-03-19",
+          "count": 1,
+          "mean_dom_prob": 0.8322
+        },
+        {
+          "date": "2026-03-20",
+          "count": 1,
+          "mean_dom_prob": 0.7537
+        },
+        {
+          "date": "2026-03-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-22",
+          "count": 1,
+          "mean_dom_prob": 0.581
+        },
+        {
+          "date": "2026-03-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-24",
+          "count": 2,
+          "mean_dom_prob": 0.7786
+        },
+        {
+          "date": "2026-03-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-27",
+          "count": 1,
+          "mean_dom_prob": 0.64
+        },
+        {
+          "date": "2026-03-28",
+          "count": 1,
+          "mean_dom_prob": 0.5831
+        },
+        {
+          "date": "2026-03-29",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-30",
+          "count": 2,
+          "mean_dom_prob": 0.8624
+        },
+        {
+          "date": "2026-03-31",
+          "count": 5,
+          "mean_dom_prob": 0.8675
+        },
+        {
+          "date": "2026-04-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-02",
+          "count": 1,
+          "mean_dom_prob": 0.8596
+        },
+        {
+          "date": "2026-04-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-04",
+          "count": 1,
+          "mean_dom_prob": 0.9295
+        },
+        {
+          "date": "2026-04-05",
+          "count": 1,
+          "mean_dom_prob": 0.8326
+        },
+        {
+          "date": "2026-04-06",
+          "count": 1,
+          "mean_dom_prob": 0.7909
+        },
+        {
+          "date": "2026-04-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-09",
+          "count": 1,
+          "mean_dom_prob": 0.832
+        },
+        {
+          "date": "2026-04-10",
+          "count": 1,
+          "mean_dom_prob": 0.5814
+        },
+        {
+          "date": "2026-04-11",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-12",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-13",
+          "count": 2,
+          "mean_dom_prob": 0.8283
+        },
+        {
+          "date": "2026-04-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-16",
+          "count": 3,
+          "mean_dom_prob": 0.7215
+        },
+        {
+          "date": "2026-04-17",
+          "count": 1,
+          "mean_dom_prob": 0.6322
+        },
+        {
+          "date": "2026-04-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-19",
+          "count": 2,
+          "mean_dom_prob": 0.8697
+        },
+        {
+          "date": "2026-04-20",
+          "count": 1,
+          "mean_dom_prob": 0.5093
+        },
+        {
+          "date": "2026-04-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-23",
+          "count": 1,
+          "mean_dom_prob": 0.5895
+        },
+        {
+          "date": "2026-04-24",
+          "count": 1,
+          "mean_dom_prob": 0.4465
+        },
+        {
+          "date": "2026-04-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-27",
+          "count": 1,
+          "mean_dom_prob": 0.7512
+        },
+        {
+          "date": "2026-04-28",
+          "count": 6,
+          "mean_dom_prob": 0.8427
+        },
+        {
+          "date": "2026-04-29",
+          "count": 19,
+          "mean_dom_prob": 0.7312
+        },
+        {
+          "date": "2026-04-30",
+          "count": 3,
+          "mean_dom_prob": 0.7235
+        },
+        {
+          "date": "2026-05-01",
+          "count": 4,
+          "mean_dom_prob": 0.8886
+        },
+        {
+          "date": "2026-05-02",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-03",
+          "count": 3,
+          "mean_dom_prob": 0.6125
+        },
+        {
+          "date": "2026-05-04",
+          "count": 1,
+          "mean_dom_prob": 0.8318
+        },
+        {
+          "date": "2026-05-05",
+          "count": 3,
+          "mean_dom_prob": 0.6473
+        },
+        {
+          "date": "2026-05-06",
+          "count": 1,
+          "mean_dom_prob": 0.9159
+        },
+        {
+          "date": "2026-05-07",
+          "count": 3,
+          "mean_dom_prob": 0.6488
+        },
+        {
+          "date": "2026-05-08",
+          "count": 5,
+          "mean_dom_prob": 0.6775
+        },
+        {
+          "date": "2026-05-09",
+          "count": 1,
+          "mean_dom_prob": 0.9665
+        },
+        {
+          "date": "2026-05-10",
+          "count": 1,
+          "mean_dom_prob": 0.8804
+        },
+        {
+          "date": "2026-05-11",
+          "count": 1,
+          "mean_dom_prob": 0.9839
+        },
+        {
+          "date": "2026-05-12",
+          "count": 1,
+          "mean_dom_prob": 0.8328
+        },
+        {
+          "date": "2026-05-13",
+          "count": 1,
+          "mean_dom_prob": 0.7204
+        },
+        {
+          "date": "2026-05-14",
+          "count": 2,
+          "mean_dom_prob": 0.857
+        },
+        {
+          "date": "2026-05-15",
+          "count": 2,
+          "mean_dom_prob": 0.6618
+        },
+        {
+          "date": "2026-05-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-17",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-18",
+          "count": 2,
+          "mean_dom_prob": 0.4912
+        },
+        {
+          "date": "2026-05-19",
+          "count": 5,
+          "mean_dom_prob": 0.7378
+        },
+        {
+          "date": "2026-05-20",
+          "count": 1,
+          "mean_dom_prob": 0.6918
+        },
+        {
+          "date": "2026-05-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-25",
+          "count": 2,
+          "mean_dom_prob": 0.8867
+        },
+        {
+          "date": "2026-05-26",
+          "count": 2,
+          "mean_dom_prob": 0.7756
+        },
+        {
+          "date": "2026-05-27",
+          "count": 2,
+          "mean_dom_prob": 0.6243
+        },
+        {
+          "date": "2026-05-28",
+          "count": 1,
+          "mean_dom_prob": 0.9298
+        }
+      ],
+      "weekly": [
+        {
+          "week_start": "2026-02-09",
+          "count": 13,
+          "top_emotion": "emotion_amusement",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-16",
+          "count": 17,
+          "top_emotion": "emotion_disapproval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-23",
+          "count": 4,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-02",
+          "count": 11,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-09",
+          "count": 9,
+          "top_emotion": "emotion_anger",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-16",
+          "count": 13,
+          "top_emotion": "emotion_disapproval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-23",
+          "count": 8,
+          "top_emotion": "emotion_excitement",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-30",
+          "count": 6,
+          "top_emotion": "emotion_caring",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-06",
+          "count": 9,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-13",
+          "count": 4,
+          "top_emotion": "emotion_desire",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-20",
+          "count": 7,
+          "top_emotion": "emotion_approval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-27",
+          "count": 3,
+          "top_emotion": "emotion_love",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-04",
+          "count": 36,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-11",
+          "count": 15,
+          "top_emotion": "emotion_disapproval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-18",
+          "count": 8,
+          "top_emotion": "emotion_approval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-25",
+          "count": 8,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": true
+        },
+        {
+          "week_start": "2026-06-01",
+          "count": 5,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": true
+        }
+      ],
+      "wow": {
+        "this_week_start": "2026-05-18",
+        "prev_week_start": "2026-05-11",
+        "this_count": 8,
+        "prev_count": 15,
+        "pct_change": -0.4667,
+        "dominant_emotion_now": "emotion_approval",
+        "dominant_emotion_prev": "emotion_disapproval",
+        "emotion_shifted": true
+      },
+      "spikes": [
+        {
+          "date": "2026-02-25",
+          "count": 3,
+          "baseline_mean": 0.571,
+          "baseline_std": 0.495,
+          "z": 4.907
+        },
+        {
+          "date": "2026-02-26",
+          "count": 4,
+          "baseline_mean": 1.0,
+          "baseline_std": 0.926,
+          "z": 3.24
+        },
+        {
+          "date": "2026-03-31",
+          "count": 5,
+          "baseline_mean": 0.857,
+          "baseline_std": 0.833,
+          "z": 4.973
+        },
+        {
+          "date": "2026-04-13",
+          "count": 2,
+          "baseline_mean": 0.571,
+          "baseline_std": 0.495,
+          "z": 2.887
+        },
+        {
+          "date": "2026-04-16",
+          "count": 3,
+          "baseline_mean": 0.571,
+          "baseline_std": 0.728,
+          "z": 3.334
+        },
+        {
+          "date": "2026-04-28",
+          "count": 6,
+          "baseline_mean": 0.714,
+          "baseline_std": 0.452,
+          "z": 11.7
+        },
+        {
+          "date": "2026-04-29",
+          "count": 19,
+          "baseline_mean": 1.429,
+          "baseline_std": 1.917,
+          "z": 9.168
+        }
+      ],
+      "quotes": [
+        {
+          "post_idx": "chipotle_00211",
+          "date": "2026-05-06",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.9159,
+          "text": "$CMG Chipotle opens new restaurants in South Korea in June which will be a mega hit Koreans are great fan for US chains like Five Guys Shake Shack of course they are craving Starbucks Chipotle Korea will be no doubt a mega hit"
+        },
+        {
+          "post_idx": "chipotle_00276",
+          "date": "2026-05-01",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.9357,
+          "text": "$CMG Operating margin fell to 12.9% from 16.7% a year earlier, adjusted restaurant-level operating margin declined to 23.7% from 26.2%, and adjusted diluted earnings per share dropped 17.2% to 24 cents."
+        },
+        {
+          "post_idx": "chipotle_01164",
+          "date": "2026-02-04",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.956,
+          "text": "$CMG dips 5.9% post-earnings \u2014 is the fiesta over? \ud83c\udf2f Despite beating EPS and revenue estimates, comparable sales fell 2.5%, and management warns of margin pressure from rising costs. Full scoop here \ud83d\udc49"
+        },
+        {
+          "post_idx": "chipotle_00164",
+          "date": "2026-05-09",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9665,
+          "text": "$CMG just released its latest promotion, \"Chipolte Deconstructed\" - \"two scoops!\" of protein in a heated pouch, sides of black beans, pinto beans, peppers and onion, lettuce, cheese and guac. A burrito shell and two taco shells. All the salsas and a small bag of chips. All packe\u2026"
+        },
+        {
+          "post_idx": "chipotle_00322",
+          "date": "2026-04-29",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9635,
+          "text": "$CMG earnings just dropped. Watching the print closely, traffic numbers are what matter here, not just the headline beat. Margins under pressure with food costs sticky. If comps miss, this thing gets repriced fast. $SHAK setup looks interesting on any spillover."
+        }
+      ],
+      "label": "Chipotle Earnings and Expansion",
+      "description": "Investors are curious about Chipotle's recent earnings report, which showed declining margins but also expansion into South Korea. The dominant sentiment shifted from disapproval to approval."
+    },
+    {
+      "topic_id": 1,
+      "top_words": [
+        [
+          "ceo",
+          0.0414
+        ],
+        [
+          "here",
+          0.0285
+        ],
+        [
+          "earnings",
+          0.0223
+        ],
+        [
+          "how",
+          0.0147
+        ],
+        [
+          "year",
+          0.0144
+        ],
+        [
+          "food",
+          0.0138
+        ],
+        [
+          "low",
+          0.0135
+        ],
+        [
+          "consensus",
+          0.013
+        ],
+        [
+          "needs",
+          0.0118
+        ],
+        [
+          "another",
+          0.0112
+        ]
+      ],
+      "volume": 174,
+      "share_kept": 0.1506,
+      "mean_dom_prob": 0.7335,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.019607115897382364,
+          "emotion_amusement": 0.019455074182994185,
+          "emotion_anger": 0.030791751131550287,
+          "emotion_annoyance": 0.04672271365058344,
+          "emotion_approval": 0.019626283444828908,
+          "emotion_caring": 0.0020771854921795806,
+          "emotion_confusion": 0.027053453807024303,
+          "emotion_curiosity": 0.06811429254879474,
+          "emotion_desire": 0.003183992867109608,
+          "emotion_disappointment": 0.029885465106256507,
+          "emotion_disapproval": 0.013350400977720854,
+          "emotion_disgust": 0.006468836380269293,
+          "emotion_embarrassment": 0.0010251702997825076,
+          "emotion_excitement": 0.00790982962079139,
+          "emotion_fear": 0.0028754044544938573,
+          "emotion_gratitude": 0.004696948987418132,
+          "emotion_grief": 0.00023332699992369526,
+          "emotion_joy": 0.002733995688663707,
+          "emotion_love": 0.0016402628113243683,
+          "emotion_nervousness": 0.0014727769305536806,
+          "emotion_neutral": 0.6500199472263631,
+          "emotion_optimism": 0.019754452660423607,
+          "emotion_pride": 0.00026750930116257077,
+          "emotion_realization": 0.004714972505621263,
+          "emotion_relief": 0.0003687597198449204,
+          "emotion_remorse": 0.0008120848832049157,
+          "emotion_sadness": 0.009632456761644157,
+          "emotion_surprise": 0.005505535276256628
+        },
+        "top_non_neutral": [
+          [
+            "emotion_curiosity",
+            0.06811429254879474
+          ],
+          [
+            "emotion_annoyance",
+            0.04672271365058344
+          ],
+          [
+            "emotion_anger",
+            0.030791751131550287
+          ],
+          [
+            "emotion_disappointment",
+            0.029885465106256507
+          ],
+          [
+            "emotion_confusion",
+            0.027053453807024303
+          ]
+        ],
+        "neutral_share": 0.6500199472263631,
+        "dominant_non_neutral": "emotion_curiosity",
+        "valence": {
+          "positive": 0.09606023231483415,
+          "negative": 0.14327038757598318,
+          "ambiguous": 0.1106494328828195
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 174,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 46,
+        "bearish": 16,
+        "unlabeled": 112,
+        "labeled_bullish_share": 0.7419
+      },
+      "daily": [
+        {
+          "date": "2026-02-04",
+          "count": 10,
+          "mean_dom_prob": 0.7385
+        },
+        {
+          "date": "2026-02-05",
+          "count": 4,
+          "mean_dom_prob": 0.6065
+        },
+        {
+          "date": "2026-02-06",
+          "count": 3,
+          "mean_dom_prob": 0.6916
+        },
+        {
+          "date": "2026-02-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-08",
+          "count": 1,
+          "mean_dom_prob": 0.944
+        },
+        {
+          "date": "2026-02-09",
+          "count": 1,
+          "mean_dom_prob": 0.8604
+        },
+        {
+          "date": "2026-02-10",
+          "count": 3,
+          "mean_dom_prob": 0.6914
+        },
+        {
+          "date": "2026-02-11",
+          "count": 4,
+          "mean_dom_prob": 0.8303
+        },
+        {
+          "date": "2026-02-12",
+          "count": 7,
+          "mean_dom_prob": 0.7746
+        },
+        {
+          "date": "2026-02-13",
+          "count": 1,
+          "mean_dom_prob": 0.6468
+        },
+        {
+          "date": "2026-02-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-15",
+          "count": 1,
+          "mean_dom_prob": 0.8796
+        },
+        {
+          "date": "2026-02-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-17",
+          "count": 3,
+          "mean_dom_prob": 0.9087
+        },
+        {
+          "date": "2026-02-18",
+          "count": 5,
+          "mean_dom_prob": 0.6196
+        },
+        {
+          "date": "2026-02-19",
+          "count": 1,
+          "mean_dom_prob": 0.9072
+        },
+        {
+          "date": "2026-02-20",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-23",
+          "count": 4,
+          "mean_dom_prob": 0.7805
+        },
+        {
+          "date": "2026-02-24",
+          "count": 2,
+          "mean_dom_prob": 0.5065
+        },
+        {
+          "date": "2026-02-25",
+          "count": 1,
+          "mean_dom_prob": 0.9558
+        },
+        {
+          "date": "2026-02-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-27",
+          "count": 1,
+          "mean_dom_prob": 0.4945
+        },
+        {
+          "date": "2026-02-28",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-02",
+          "count": 5,
+          "mean_dom_prob": 0.7524
+        },
+        {
+          "date": "2026-03-03",
+          "count": 1,
+          "mean_dom_prob": 0.5966
+        },
+        {
+          "date": "2026-03-04",
+          "count": 3,
+          "mean_dom_prob": 0.732
+        },
+        {
+          "date": "2026-03-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-06",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-09",
+          "count": 2,
+          "mean_dom_prob": 0.8253
+        },
+        {
+          "date": "2026-03-10",
+          "count": 1,
+          "mean_dom_prob": 0.7912
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "mean_dom_prob": 0.7896
+        },
+        {
+          "date": "2026-03-12",
+          "count": 7,
+          "mean_dom_prob": 0.8148
+        },
+        {
+          "date": "2026-03-13",
+          "count": 1,
+          "mean_dom_prob": 0.8803
+        },
+        {
+          "date": "2026-03-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-16",
+          "count": 1,
+          "mean_dom_prob": 0.5004
+        },
+        {
+          "date": "2026-03-17",
+          "count": 2,
+          "mean_dom_prob": 0.6457
+        },
+        {
+          "date": "2026-03-18",
+          "count": 7,
+          "mean_dom_prob": 0.7126
+        },
+        {
+          "date": "2026-03-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-20",
+          "count": 2,
+          "mean_dom_prob": 0.7768
+        },
+        {
+          "date": "2026-03-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-22",
+          "count": 1,
+          "mean_dom_prob": 0.7206
+        },
+        {
+          "date": "2026-03-23",
+          "count": 1,
+          "mean_dom_prob": 0.5495
+        },
+        {
+          "date": "2026-03-24",
+          "count": 1,
+          "mean_dom_prob": 0.5399
+        },
+        {
+          "date": "2026-03-25",
+          "count": 1,
+          "mean_dom_prob": 0.7907
+        },
+        {
+          "date": "2026-03-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-27",
+          "count": 1,
+          "mean_dom_prob": 0.7898
+        },
+        {
+          "date": "2026-03-28",
+          "count": 1,
+          "mean_dom_prob": 0.5005
+        },
+        {
+          "date": "2026-03-29",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-30",
+          "count": 2,
+          "mean_dom_prob": 0.6353
+        },
+        {
+          "date": "2026-03-31",
+          "count": 3,
+          "mean_dom_prob": 0.6413
+        },
+        {
+          "date": "2026-04-01",
+          "count": 1,
+          "mean_dom_prob": 0.5823
+        },
+        {
+          "date": "2026-04-02",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-04",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-06",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-07",
+          "count": 1,
+          "mean_dom_prob": 0.4055
+        },
+        {
+          "date": "2026-04-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-09",
+          "count": 1,
+          "mean_dom_prob": 0.7215
+        },
+        {
+          "date": "2026-04-10",
+          "count": 1,
+          "mean_dom_prob": 0.8602
+        },
+        {
+          "date": "2026-04-11",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-12",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-13",
+          "count": 1,
+          "mean_dom_prob": 0.9159
+        },
+        {
+          "date": "2026-04-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-15",
+          "count": 1,
+          "mean_dom_prob": 0.4337
+        },
+        {
+          "date": "2026-04-16",
+          "count": 1,
+          "mean_dom_prob": 0.7207
+        },
+        {
+          "date": "2026-04-17",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-20",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-21",
+          "count": 1,
+          "mean_dom_prob": 0.4231
+        },
+        {
+          "date": "2026-04-22",
+          "count": 1,
+          "mean_dom_prob": 0.5026
+        },
+        {
+          "date": "2026-04-23",
+          "count": 3,
+          "mean_dom_prob": 0.7857
+        },
+        {
+          "date": "2026-04-24",
+          "count": 3,
+          "mean_dom_prob": 0.7146
+        },
+        {
+          "date": "2026-04-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-27",
+          "count": 1,
+          "mean_dom_prob": 0.6155
+        },
+        {
+          "date": "2026-04-28",
+          "count": 2,
+          "mean_dom_prob": 0.8721
+        },
+        {
+          "date": "2026-04-29",
+          "count": 10,
+          "mean_dom_prob": 0.7866
+        },
+        {
+          "date": "2026-04-30",
+          "count": 2,
+          "mean_dom_prob": 0.777
+        },
+        {
+          "date": "2026-05-01",
+          "count": 3,
+          "mean_dom_prob": 0.8475
+        },
+        {
+          "date": "2026-05-02",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-04",
+          "count": 4,
+          "mean_dom_prob": 0.8475
+        },
+        {
+          "date": "2026-05-05",
+          "count": 2,
+          "mean_dom_prob": 0.9509
+        },
+        {
+          "date": "2026-05-06",
+          "count": 4,
+          "mean_dom_prob": 0.5182
+        },
+        {
+          "date": "2026-05-07",
+          "count": 2,
+          "mean_dom_prob": 0.7237
+        },
+        {
+          "date": "2026-05-08",
+          "count": 4,
+          "mean_dom_prob": 0.7238
+        },
+        {
+          "date": "2026-05-09",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-11",
+          "count": 4,
+          "mean_dom_prob": 0.738
+        },
+        {
+          "date": "2026-05-12",
+          "count": 1,
+          "mean_dom_prob": 0.7206
+        },
+        {
+          "date": "2026-05-13",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-14",
+          "count": 1,
+          "mean_dom_prob": 0.8327
+        },
+        {
+          "date": "2026-05-15",
+          "count": 1,
+          "mean_dom_prob": 0.8326
+        },
+        {
+          "date": "2026-05-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-17",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-19",
+          "count": 3,
+          "mean_dom_prob": 0.6294
+        },
+        {
+          "date": "2026-05-20",
+          "count": 5,
+          "mean_dom_prob": 0.6892
+        },
+        {
+          "date": "2026-05-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-22",
+          "count": 2,
+          "mean_dom_prob": 0.7566
+        },
+        {
+          "date": "2026-05-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-26",
+          "count": 4,
+          "mean_dom_prob": 0.8288
+        },
+        {
+          "date": "2026-05-27",
+          "count": 3,
+          "mean_dom_prob": 0.6481
+        },
+        {
+          "date": "2026-05-28",
+          "count": 0,
+          "mean_dom_prob": null
+        }
+      ],
+      "weekly": [
+        {
+          "week_start": "2026-02-09",
+          "count": 19,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-16",
+          "count": 16,
+          "top_emotion": "emotion_amusement",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-23",
+          "count": 13,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-02",
+          "count": 9,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-09",
+          "count": 6,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-16",
+          "count": 16,
+          "top_emotion": "emotion_anger",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-23",
+          "count": 13,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-30",
+          "count": 6,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-06",
+          "count": 4,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-13",
+          "count": 4,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-20",
+          "count": 2,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-27",
+          "count": 9,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-04",
+          "count": 21,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-11",
+          "count": 16,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-18",
+          "count": 3,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-25",
+          "count": 10,
+          "top_emotion": "emotion_confusion",
+          "is_partial": true
+        },
+        {
+          "week_start": "2026-06-01",
+          "count": 7,
+          "top_emotion": "emotion_anger",
+          "is_partial": true
+        }
+      ],
+      "wow": {
+        "this_week_start": "2026-05-18",
+        "prev_week_start": "2026-05-11",
+        "this_count": 3,
+        "prev_count": 16,
+        "pct_change": -0.8125,
+        "dominant_emotion_now": "emotion_curiosity",
+        "dominant_emotion_prev": "emotion_admiration",
+        "emotion_shifted": true
+      },
+      "spikes": [
+        {
+          "date": "2026-03-02",
+          "count": 5,
+          "baseline_mean": 1.286,
+          "baseline_std": 1.278,
+          "z": 2.907
+        },
+        {
+          "date": "2026-03-11",
+          "count": 6,
+          "baseline_mean": 1.714,
+          "baseline_std": 1.666,
+          "z": 2.572
+        },
+        {
+          "date": "2026-03-12",
+          "count": 7,
+          "baseline_mean": 1.857,
+          "baseline_std": 1.959,
+          "z": 2.626
+        },
+        {
+          "date": "2026-03-31",
+          "count": 3,
+          "baseline_mean": 1.143,
+          "baseline_std": 0.639,
+          "z": 2.907
+        },
+        {
+          "date": "2026-04-23",
+          "count": 3,
+          "baseline_mean": 0.571,
+          "baseline_std": 0.495,
+          "z": 4.907
+        },
+        {
+          "date": "2026-04-29",
+          "count": 10,
+          "baseline_mean": 1.571,
+          "baseline_std": 1.05,
+          "z": 8.029
+        },
+        {
+          "date": "2026-05-20",
+          "count": 5,
+          "baseline_mean": 1.429,
+          "baseline_std": 1.4,
+          "z": 2.552
+        }
+      ],
+      "quotes": [
+        {
+          "post_idx": "chipotle_01016",
+          "date": "2026-02-12",
+          "bucket": "positive",
+          "sentiment_label": "Bearish",
+          "dom_prob": 0.8951,
+          "text": "$CMG my 36p earnings play went from .01 to .12 lol c\u2019mon let\u2019s get this to $35 by Friday lol"
+        },
+        {
+          "post_idx": "chipotle_00832",
+          "date": "2026-03-02",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.9233,
+          "text": "$CMG It falls below 36 and I am selling this POS for a loss. Can\u2019t take ot and won\u2019t take it past another Earnings. \ud83e\udd26\ud83c\udffd"
+        },
+        {
+          "post_idx": "chipotle_00736",
+          "date": "2026-03-11",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9635,
+          "text": "$CMG at 29x earnings. Is that a good deal ? Cmg has room to raise prices if they wanted to. It'scheaper than many items in McDonald's. Cmg used to be the high end fast good, but now they are high end fast casual with low end frozen food prices. Thoughts?"
+        },
+        {
+          "post_idx": "chipotle_01134",
+          "date": "2026-02-04",
+          "bucket": "neutral_other",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.976,
+          "text": "$CMG Honestly market had to push itself forward when CEO wanted to stay ot low and flat. What and how he talked yesterday was so below par. Says Chipotle had a great January and introduction of protein menu had great turnout, says Chipotle will open in comparsion like one new re\u2026"
+        },
+        {
+          "post_idx": "chipotle_00955",
+          "date": "2026-02-17",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9649,
+          "text": "$CMG I am a large shareholder here with $7.45 cost basis. I listed to last earnings report. Dismal sales and growth is a big deal, but consumer food sector continues to be weak. I expect share price to be between $30 - $40, unless something changes in future earnings releases, w\u2026"
+        }
+      ],
+      "label": "CMG Earnings and Price Discussion",
+      "description": "Investors are curious about Chipotle's (CMG) earnings and stock price, with some expressing concern over its valuation and potential for price increases."
+    },
+    {
+      "topic_id": 4,
+      "top_words": [
+        [
+          "down",
+          0.0301
+        ],
+        [
+          "all",
+          0.0245
+        ],
+        [
+          "time",
+          0.0165
+        ],
+        [
+          "short",
+          0.0136
+        ],
+        [
+          "growth",
+          0.0124
+        ],
+        [
+          "going",
+          0.012
+        ],
+        [
+          "drop",
+          0.0119
+        ],
+        [
+          "higher",
+          0.0107
+        ],
+        [
+          "new",
+          0.0107
+        ],
+        [
+          "than",
+          0.0103
+        ]
+      ],
+      "volume": 169,
+      "share_kept": 0.1463,
+      "mean_dom_prob": 0.7353,
+      "emotions": {
+        "mean": {
+          "emotion_admiration": 0.01884802384932698,
+          "emotion_amusement": 0.01101286680123628,
+          "emotion_anger": 0.015823409717792617,
+          "emotion_annoyance": 0.03917364975179557,
+          "emotion_approval": 0.018773026497366008,
+          "emotion_caring": 0.0026519560091459345,
+          "emotion_confusion": 0.032901942383032366,
+          "emotion_curiosity": 0.05409894213659162,
+          "emotion_desire": 0.002877277174776616,
+          "emotion_disappointment": 0.025464560242185404,
+          "emotion_disapproval": 0.02027788071973761,
+          "emotion_disgust": 0.007408845871566613,
+          "emotion_embarrassment": 0.0022031061888366124,
+          "emotion_excitement": 0.006456727009658754,
+          "emotion_fear": 0.0016829800798694621,
+          "emotion_gratitude": 0.027071421467811135,
+          "emotion_grief": 0.00023523467828057682,
+          "emotion_joy": 0.003387998322812877,
+          "emotion_love": 0.006556942186276718,
+          "emotion_nervousness": 0.0005119619236957529,
+          "emotion_neutral": 0.6372754347274486,
+          "emotion_optimism": 0.022893638538500082,
+          "emotion_pride": 0.0002872127445865281,
+          "emotion_realization": 0.006834027775509047,
+          "emotion_relief": 0.0003848572077564724,
+          "emotion_remorse": 0.0006304598860032491,
+          "emotion_sadness": 0.007837650066539295,
+          "emotion_surprise": 0.02643796602398528
+        },
+        "top_non_neutral": [
+          [
+            "emotion_curiosity",
+            0.05409894213659162
+          ],
+          [
+            "emotion_annoyance",
+            0.03917364975179557
+          ],
+          [
+            "emotion_confusion",
+            0.032901942383032366
+          ],
+          [
+            "emotion_gratitude",
+            0.027071421467811135
+          ],
+          [
+            "emotion_surprise",
+            0.02643796602398528
+          ]
+        ],
+        "neutral_share": 0.6372754347274486,
+        "dominant_non_neutral": "emotion_curiosity",
+        "valence": {
+          "positive": 0.11567271462533182,
+          "negative": 0.12124973912630274,
+          "ambiguous": 0.1258021115209168
+        }
+      },
+      "by_source": [
+        {
+          "source": "stocktwits",
+          "volume": 169,
+          "share": 1.0
+        }
+      ],
+      "sentiment_label": {
+        "bullish": 38,
+        "bearish": 15,
+        "unlabeled": 116,
+        "labeled_bullish_share": 0.717
+      },
+      "daily": [
+        {
+          "date": "2026-02-04",
+          "count": 8,
+          "mean_dom_prob": 0.7364
+        },
+        {
+          "date": "2026-02-05",
+          "count": 2,
+          "mean_dom_prob": 0.8348
+        },
+        {
+          "date": "2026-02-06",
+          "count": 4,
+          "mean_dom_prob": 0.7781
+        },
+        {
+          "date": "2026-02-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-08",
+          "count": 1,
+          "mean_dom_prob": 0.8316
+        },
+        {
+          "date": "2026-02-09",
+          "count": 2,
+          "mean_dom_prob": 0.8954
+        },
+        {
+          "date": "2026-02-10",
+          "count": 5,
+          "mean_dom_prob": 0.7072
+        },
+        {
+          "date": "2026-02-11",
+          "count": 3,
+          "mean_dom_prob": 0.8419
+        },
+        {
+          "date": "2026-02-12",
+          "count": 5,
+          "mean_dom_prob": 0.8357
+        },
+        {
+          "date": "2026-02-13",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-15",
+          "count": 1,
+          "mean_dom_prob": 0.4991
+        },
+        {
+          "date": "2026-02-16",
+          "count": 1,
+          "mean_dom_prob": 0.5814
+        },
+        {
+          "date": "2026-02-17",
+          "count": 3,
+          "mean_dom_prob": 0.795
+        },
+        {
+          "date": "2026-02-18",
+          "count": 2,
+          "mean_dom_prob": 0.6768
+        },
+        {
+          "date": "2026-02-19",
+          "count": 1,
+          "mean_dom_prob": 0.4616
+        },
+        {
+          "date": "2026-02-20",
+          "count": 1,
+          "mean_dom_prob": 0.5975
+        },
+        {
+          "date": "2026-02-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-02-24",
+          "count": 5,
+          "mean_dom_prob": 0.7886
+        },
+        {
+          "date": "2026-02-25",
+          "count": 2,
+          "mean_dom_prob": 0.7789
+        },
+        {
+          "date": "2026-02-26",
+          "count": 1,
+          "mean_dom_prob": 0.7213
+        },
+        {
+          "date": "2026-02-27",
+          "count": 3,
+          "mean_dom_prob": 0.6678
+        },
+        {
+          "date": "2026-02-28",
+          "count": 1,
+          "mean_dom_prob": 0.9159
+        },
+        {
+          "date": "2026-03-01",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-02",
+          "count": 1,
+          "mean_dom_prob": 0.5193
+        },
+        {
+          "date": "2026-03-03",
+          "count": 1,
+          "mean_dom_prob": 0.8803
+        },
+        {
+          "date": "2026-03-04",
+          "count": 1,
+          "mean_dom_prob": 0.4532
+        },
+        {
+          "date": "2026-03-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-06",
+          "count": 1,
+          "mean_dom_prob": 0.9532
+        },
+        {
+          "date": "2026-03-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-08",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1,
+          "mean_dom_prob": 0.439
+        },
+        {
+          "date": "2026-03-10",
+          "count": 1,
+          "mean_dom_prob": 0.7771
+        },
+        {
+          "date": "2026-03-11",
+          "count": 5,
+          "mean_dom_prob": 0.7676
+        },
+        {
+          "date": "2026-03-12",
+          "count": 2,
+          "mean_dom_prob": 0.8345
+        },
+        {
+          "date": "2026-03-13",
+          "count": 3,
+          "mean_dom_prob": 0.7848
+        },
+        {
+          "date": "2026-03-14",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-15",
+          "count": 3,
+          "mean_dom_prob": 0.6612
+        },
+        {
+          "date": "2026-03-16",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-17",
+          "count": 2,
+          "mean_dom_prob": 0.8251
+        },
+        {
+          "date": "2026-03-18",
+          "count": 2,
+          "mean_dom_prob": 0.8632
+        },
+        {
+          "date": "2026-03-19",
+          "count": 1,
+          "mean_dom_prob": 0.8803
+        },
+        {
+          "date": "2026-03-20",
+          "count": 3,
+          "mean_dom_prob": 0.6912
+        },
+        {
+          "date": "2026-03-21",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-23",
+          "count": 2,
+          "mean_dom_prob": 0.5825
+        },
+        {
+          "date": "2026-03-24",
+          "count": 1,
+          "mean_dom_prob": 0.5831
+        },
+        {
+          "date": "2026-03-25",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-27",
+          "count": 1,
+          "mean_dom_prob": 0.5717
+        },
+        {
+          "date": "2026-03-28",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-29",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-03-30",
+          "count": 2,
+          "mean_dom_prob": 0.8876
+        },
+        {
+          "date": "2026-03-31",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-01",
+          "count": 1,
+          "mean_dom_prob": 0.5732
+        },
+        {
+          "date": "2026-04-02",
+          "count": 3,
+          "mean_dom_prob": 0.5683
+        },
+        {
+          "date": "2026-04-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-04",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-05",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-06",
+          "count": 1,
+          "mean_dom_prob": 0.7219
+        },
+        {
+          "date": "2026-04-07",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-08",
+          "count": 3,
+          "mean_dom_prob": 0.6573
+        },
+        {
+          "date": "2026-04-09",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-11",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-12",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-13",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-14",
+          "count": 1,
+          "mean_dom_prob": 0.907
+        },
+        {
+          "date": "2026-04-15",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-16",
+          "count": 1,
+          "mean_dom_prob": 0.8955
+        },
+        {
+          "date": "2026-04-17",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-19",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-20",
+          "count": 1,
+          "mean_dom_prob": 0.8605
+        },
+        {
+          "date": "2026-04-21",
+          "count": 1,
+          "mean_dom_prob": 0.7206
+        },
+        {
+          "date": "2026-04-22",
+          "count": 3,
+          "mean_dom_prob": 0.7984
+        },
+        {
+          "date": "2026-04-23",
+          "count": 2,
+          "mean_dom_prob": 0.6953
+        },
+        {
+          "date": "2026-04-24",
+          "count": 1,
+          "mean_dom_prob": 0.789
+        },
+        {
+          "date": "2026-04-25",
+          "count": 1,
+          "mean_dom_prob": 0.7012
+        },
+        {
+          "date": "2026-04-26",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-04-27",
+          "count": 1,
+          "mean_dom_prob": 0.6973
+        },
+        {
+          "date": "2026-04-28",
+          "count": 3,
+          "mean_dom_prob": 0.6857
+        },
+        {
+          "date": "2026-04-29",
+          "count": 11,
+          "mean_dom_prob": 0.7463
+        },
+        {
+          "date": "2026-04-30",
+          "count": 6,
+          "mean_dom_prob": 0.7902
+        },
+        {
+          "date": "2026-05-01",
+          "count": 4,
+          "mean_dom_prob": 0.689
+        },
+        {
+          "date": "2026-05-02",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-03",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-04",
+          "count": 6,
+          "mean_dom_prob": 0.7293
+        },
+        {
+          "date": "2026-05-05",
+          "count": 2,
+          "mean_dom_prob": 0.7315
+        },
+        {
+          "date": "2026-05-06",
+          "count": 1,
+          "mean_dom_prob": 0.5658
+        },
+        {
+          "date": "2026-05-07",
+          "count": 1,
+          "mean_dom_prob": 0.7046
+        },
+        {
+          "date": "2026-05-08",
+          "count": 4,
+          "mean_dom_prob": 0.7293
+        },
+        {
+          "date": "2026-05-09",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-10",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-11",
+          "count": 5,
+          "mean_dom_prob": 0.7615
+        },
+        {
+          "date": "2026-05-12",
+          "count": 1,
+          "mean_dom_prob": 0.8803
+        },
+        {
+          "date": "2026-05-13",
+          "count": 2,
+          "mean_dom_prob": 0.5538
+        },
+        {
+          "date": "2026-05-14",
+          "count": 1,
+          "mean_dom_prob": 0.7217
+        },
+        {
+          "date": "2026-05-15",
+          "count": 1,
+          "mean_dom_prob": 0.7212
+        },
+        {
+          "date": "2026-05-16",
+          "count": 2,
+          "mean_dom_prob": 0.7116
+        },
+        {
+          "date": "2026-05-17",
+          "count": 1,
+          "mean_dom_prob": 0.565
+        },
+        {
+          "date": "2026-05-18",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-19",
+          "count": 3,
+          "mean_dom_prob": 0.6517
+        },
+        {
+          "date": "2026-05-20",
+          "count": 1,
+          "mean_dom_prob": 0.944
+        },
+        {
+          "date": "2026-05-21",
+          "count": 2,
+          "mean_dom_prob": 0.7559
+        },
+        {
+          "date": "2026-05-22",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-23",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-24",
+          "count": 0,
+          "mean_dom_prob": null
+        },
+        {
+          "date": "2026-05-25",
+          "count": 2,
+          "mean_dom_prob": 0.517
+        },
+        {
+          "date": "2026-05-26",
+          "count": 3,
+          "mean_dom_prob": 0.7909
+        },
+        {
+          "date": "2026-05-27",
+          "count": 2,
+          "mean_dom_prob": 0.6408
+        },
+        {
+          "date": "2026-05-28",
+          "count": 1,
+          "mean_dom_prob": 0.972
+        }
+      ],
+      "weekly": [
+        {
+          "week_start": "2026-02-09",
+          "count": 17,
+          "top_emotion": "emotion_amusement",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-16",
+          "count": 15,
+          "top_emotion": "emotion_gratitude",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-02-23",
+          "count": 7,
+          "top_emotion": "emotion_confusion",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-02",
+          "count": 13,
+          "top_emotion": "emotion_curiosity",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-09",
+          "count": 4,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-16",
+          "count": 14,
+          "top_emotion": "emotion_disappointment",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-23",
+          "count": 10,
+          "top_emotion": "emotion_surprise",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-03-30",
+          "count": 4,
+          "top_emotion": "emotion_admiration",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-06",
+          "count": 5,
+          "top_emotion": "emotion_disapproval",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-13",
+          "count": 3,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-20",
+          "count": 3,
+          "top_emotion": "emotion_love",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-04-27",
+          "count": 9,
+          "top_emotion": "emotion_gratitude",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-04",
+          "count": 30,
+          "top_emotion": "emotion_surprise",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-11",
+          "count": 13,
+          "top_emotion": "emotion_confusion",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-18",
+          "count": 8,
+          "top_emotion": "emotion_optimism",
+          "is_partial": false
+        },
+        {
+          "week_start": "2026-05-25",
+          "count": 8,
+          "top_emotion": "emotion_annoyance",
+          "is_partial": true
+        },
+        {
+          "week_start": "2026-06-01",
+          "count": 6,
+          "top_emotion": "emotion_admiration",
+          "is_partial": true
+        }
+      ],
+      "wow": {
+        "this_week_start": "2026-05-18",
+        "prev_week_start": "2026-05-11",
+        "this_count": 8,
+        "prev_count": 13,
+        "pct_change": -0.3846,
+        "dominant_emotion_now": "emotion_optimism",
+        "dominant_emotion_prev": "emotion_confusion",
+        "emotion_shifted": true
+      },
+      "spikes": [
+        {
+          "date": "2026-02-24",
+          "count": 5,
+          "baseline_mean": 1.143,
+          "baseline_std": 0.99,
+          "z": 3.897
+        },
+        {
+          "date": "2026-03-11",
+          "count": 5,
+          "baseline_mean": 0.857,
+          "baseline_std": 0.35,
+          "z": 11.839
+        },
+        {
+          "date": "2026-04-02",
+          "count": 3,
+          "baseline_mean": 0.714,
+          "baseline_std": 0.7,
+          "z": 3.266
+        },
+        {
+          "date": "2026-04-22",
+          "count": 3,
+          "baseline_mean": 0.571,
+          "baseline_std": 0.495,
+          "z": 4.907
+        },
+        {
+          "date": "2026-04-29",
+          "count": 11,
+          "baseline_mean": 1.714,
+          "baseline_std": 0.881,
+          "z": 10.544
+        }
+      ],
+      "quotes": [
+        {
+          "post_idx": "chipotle_00001",
+          "date": "2026-05-28",
+          "bucket": "positive",
+          "sentiment_label": "Bullish",
+          "dom_prob": 0.972,
+          "text": "$CMG Look BELOW Folks! Dont miss out and have to chase later. Great Entry now! Come back and thank me later! \ud83d\udc4c\ud83c\udffe Reversals Incoming!!! $SCHW Analyst Bullish - Hit all time low $BSX Great Entry- At all time low $MCD Analysts Signal Outperform $WMT BUY Signals! These will be the ne\u2026"
+        },
+        {
+          "post_idx": "chipotle_00402",
+          "date": "2026-04-28",
+          "bucket": "negative",
+          "sentiment_label": null,
+          "dom_prob": 0.9355,
+          "text": "$CMG i hate to say it but i bought chipote for the second time bowl each time and its good but definitely overrated. You can easily make yourself the same meal at home"
+        },
+        {
+          "post_idx": "chipotle_00866",
+          "date": "2026-02-25",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9663,
+          "text": "$CMG doubling down on expansion \u2014 will 350 new units move the needle in 2026? The plan: open 350 restaurants, lean into Chipotlanes, and use steady expansion to offset flat comps and drive systemwide sales growth. When same-store momentum stalls, footprint growth has to carry th\u2026"
+        },
+        {
+          "post_idx": "chipotle_01101",
+          "date": "2026-02-06",
+          "bucket": "neutral_other",
+          "sentiment_label": null,
+          "dom_prob": 0.9664,
+          "text": "$CMG pretty much everyday whoever manipulates this decides it\u2019s time to short sell it at some point. They make money on the way up and then they rug pull it. Or they short it at open and then go long. Almost everyday this swings in both directions. Ever notice that it doesn\u2019t up\u2026"
+        },
+        {
+          "post_idx": "chipotle_00793",
+          "date": "2026-03-06",
+          "bucket": "curious",
+          "sentiment_label": null,
+          "dom_prob": 0.9532,
+          "text": "$CMG I know this turd doesn\u2019t need a reason\u2026BUT\u2026was there any news today? It dropped 5% ffsk and made a new low for 2026\u2026even risk on tech or crypto didn\u2019t drop this hard"
+        }
+      ],
+      "label": "CMG Expansion and Growth Strategy",
+      "description": "Investors are discussing Chipotle's (CMG) aggressive expansion plans, including 350 new units and Chipotlanes, to drive sales growth. The dominant sentiment is curiosity about whether this strategy will be successful."
+    }
+  ],
+  "cooccurrence": {
+    "mode": "soft_within_doc_cosine",
+    "note": "cosine over soft topic-prob columns; diagonal omitted",
+    "top_pairs": [
+      {
+        "a": 1,
+        "b": 2,
+        "score": 0.1344
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "score": 0.1331
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "score": 0.1269
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "score": 0.1257
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "score": 0.1228
+      }
+    ]
+  }
+}
