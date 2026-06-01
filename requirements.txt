@@ -9,3 +9,4 @@ pytest
 pandas
 requests
 python-dotenv
+langchain-text-splitters
