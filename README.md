@@ -1,8 +1,8 @@
 # BusinessSentimentAnalysis
 ## Key Achievements
 
-* **Decoupled Data Pipeline Architecture:** Designed an asynchronous, file-isolated pipeline where each stage (`ingest` through `report`) communicates exclusively via disk-serialized state (CSV/JSON). This enables independent execution, caching, and simple local debugging.
-* **Granular 28-Class Emotion Modeling:** Leveraged an optimized ONNX runtime implementation of `RoBERTa-base-go_emotions` to process text data across 28 distinct emotional dimensions, bypassing generic sentiment binaries to extract true investor psychology (e.g., anxiety, pride, realization).
+* **Data Pipeline:** Designed an asynchronous pipeline where each stage (`ingest` through `report`) communicates exclusively via disk serialized state (CSV/JSON). This enables independent execution, caching, and simple local debugging.
+* **Granular 28-Class Emotion Modeling:** Leveraged an optimized ONNX runtime implementation of `RoBERTa-base-go_emotions` to process text data across 28 distinct emotional dimensions, bypassing generic sentiment binaries to get a better idea of investor psychology (e.g., anxiety, pride, confusion).
 * **Automated Topic Optimization:** Integrated a dynamic Latent Dirichlet Allocation (LDA) sweep ($K=4\dots10$) using `gensim`, automatically evaluating and selecting optimal topic distributions using the $c_v$ coherence score.
 * **Executive Report Creation:** Created a reporting system combining dynamic `matplotlib` charting with the `Gemini API` for contextual topic labeling, culminating in automated, executive ready PDF generation via `reportlab`.
 
@@ -11,8 +11,6 @@
 ## Pipeline
 
 ingest → preprocess → sentiment → lda → aggregate → brief → report
-
-Stages communicate **only through files on disk** — each is independently runnable and re-runnable. The pipeline is parameterized by `--company <name>`.
 
 | Stage | What it does | Output / Artifact |
 |---|---|---|
